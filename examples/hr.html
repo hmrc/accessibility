@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Horizontal rule - Examples - Standards</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/dark.min.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="./assets/light.min.css"
+  media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+    <style>
+      .voiceover {
+        background-color: hsl(228, 11%, 18%);
+        border-radius: 5px;
+        border: 2px solid hsl(0, 0%, 100%);
+        font-style: normal;
+        padding: 20px;
+      }
+
+      .keys {
+        text-align: center;
+      }
+
+      @media (prefers-color-scheme: light) {
+        .voiceover p {
+          color: hsl(0, 0%, 100%);
+        }
+      }
+
+    </style>
+  </head>
+
+  <body>
+
+    <main>
+      <h1>Page heading</h1>
+      <p>Using the presentational <code>&lt;hr/&gt;</code> element as a
+        decoration without adding <code>aria-hidden</code> to prevent screen
+        readers from trying to interact with it.</p>
+      <hr />
+    </main>
+
+    <aside aria-label="VoiceOver dialogue">
+      <h2>VoiceOver</h2>
+      <blockquote class="voiceover">
+        <p>You are currently on a horizontal separator. This
+          item is dimmed. To start interacting with the splitter, press
+          Control-Option-Shift-Down Arrow</p>
+      </blockquote>
+
+      <div class="keys">
+        <kbd>Control</kbd>
+        <kbd>Option</kbd>
+        <kbd>Shift</kbd>
+        <kbd>&darr;</kbd>
+      </div>
+
+      <blockquote class="voiceover">
+        <p>You are currently in a horizontal separator. To
+          change the splitter position, press Control-Option and then Left
+          Arrow
+          or Right Arrow. To stop interacting with the splitter, press
+          Control-Option-Shift-Up</p>
+      </blockquote>
+
+      <div class="keys">
+        <kbd>Control</kbd>
+        <kbd>Option</kbd>
+        <kbd>Shift</kbd>
+        <kbd>&larr;</kbd>
+      </div>
+
+      <blockquote class="voiceover">
+        <p>0%</p>
+      </blockquote>
+
+      <div class="keys">
+        <kbd>Control</kbd>
+        <kbd>Option</kbd>
+        <kbd>Shift</kbd>
+        <kbd>&rarr;</kbd>
+      </div>
+
+      <blockquote class="voiceover">
+        <p>0%</p>
+      </blockquote>
+
+      <div class="keys">
+        <kbd>Control</kbd>
+        <kbd>Option</kbd>
+        <kbd>Shift</kbd>
+        <kbd>&uarr;</kbd>
+      </div>
+
+      <blockquote class="voiceover">
+        <p>Out of horizontal separator</p>
+      </blockquote>
+    </aside>
+  </body>
+
+</html>

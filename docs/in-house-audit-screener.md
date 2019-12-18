@@ -2,34 +2,92 @@
 
 To get the best out of an in-house accessibility review or a formal external audit by Digital Accessibility Centre (DAC), you can help yourselves by carrying out some checks beforehand.
 
-To help you we've listed some things you can use to help you throughout development; from prototyping through to deployment.
+To help you we've listed some things you can use throughout development; from prototyping through to deployment.
 
 The accessibility of your service is your responsibility.  Carrying out these checks will help improve the accessibility of your service, save time by eliminating issues early, and help ensure it meets
  the [public sector accessibility regulations](https://confluence.tools.tax.service.gov.uk/display/DSA/Regulations+to+make+public+sector+websites+and+mobile+applications+accessible).
 
 <!-- TOC -->
 
-- [In-house audit screener](#in-house-audit-screener)
-  - [Three tasks for your Definition of Done](#three-tasks-for-your-definition-of-done)
-  - [Most common accessibility failings](#most-common-accessibility-failings)
-  - [Most common design and usability issues](#most-common-design-and-usability-issues)
-    - [Further information about WCAG 2.1](#further-information-about-wcag-21)
-  - [Make use of automated helpers](#make-use-of-automated-helpers)
-    - [Stage one: browser plugins](#stage-one-browser-plugins)
-    - [Stage two: prototyping tools](#stage-two-prototyping-tools)
-    - [Stage three: Continuous Integration tools](#stage-three-continuous-integration-tools)
+- [When should you consider accessibility](#when-should-you-consider-accessibility)
+  - [Definition of Ready](#definition-of-ready)
+  - [Definition of Done](#definition-of-done)
+- [Most common accessibility failings](#most-common-accessibility-failings)
+- [Most common design and usability issues](#most-common-design-and-usability-issues)
+  - [Further information about WCAG 2.1](#further-information-about-wcag-21)
+- [Make use of automated helpers](#make-use-of-automated-helpers)
+  - [Stage one: browser plugins](#stage-one-browser-plugins)
+  - [Stage two: prototyping tools](#stage-two-prototyping-tools)
+  - [Stage three: Continuous Integration tools](#stage-three-continuous-integration-tools)
 
 <!-- /TOC -->
 
-## Three tasks for your Definition of Done
+## When should you consider accessibility
 
-We recommend having the following three tasks in your team’s Definition of Done.
+There is often a temptation to *“do it at the end”* &mdash; we do not do this. Accessibility is a user need. You should be thinking about the access needs of your users from the start of design, research and development.
+
+### Definition of Ready
+
+Designers should make sure accessibility is part of what they do. Keep content, flows and screens simple to help people with learning disabilities, mental health conditions, cognitive impairments and autism.
+
+To make sure accessibility is part of the story, include:
+
+- human readable URLs
+- page titles that are different to headings to stop personally identifiable information being stored in Google Analytics, for example ‘What is Gordon’s date of birth?’ would need to be ‘What is the child’s date of birth?’
+- reading order when there are differences between what is visible and what is read out loud
+- hidden text for screen readers, where necessary
+- colours and colour contrast
+- if something is tabular data or not and suggest HTML solutions or patterns
+- line spacing and whitespace
+- non-breaking spaces and hyphens to stop unwanted word wrapping
+- simple, easy to understand content that meets the content style guide
+- how will this look on mobile (remember a zoomed in desktop screen will effectively become a mobile viewport)
+- how this will work without javascript
+- if the journey more than a few screens and whether we allow the user to save and come back later
+- whether people using assistive technology might need extra time to complete tasks
+- accommodation for screen zoom and whether the screen still makes sense at +200%
+- secondary methods to convey meaning rather than just colour alone
+- reasonable distance between related elements, rather than remote from each other
+
+Most of this should be part of standard components but may help if it is part of a ticket.
+
+### Definition of Done
+
+As an absolute bare minimum, we recommend following these three tasks from the longer list below.
 
 1. Make sure each page contains valid HTML.
 2. Make sure each page is free from WCAG errors.
-3. Test each page with at least one screen reader.
+3. Test each page is usable with at least one screen reader.
 
 You should be positive that these tasks are completed to satisfaction before you consider requesting an in-house audit before your DAC audit. The best way to achieve that is to validate the HTML of each page and use a tool like axe or Pa11y to test for WCAG errors as you’re test driving your service with a screen reader at the end of each sprint.
+
+Most of this work can be done at your own desk. The assistive tech journeys are best done in the lab.
+
+- make sure each page contains valid HTML
+- make sure each page contains valid CSS
+- make sure each page works without CSS
+- make sure each page works without JS
+- make sure the JS doesn’t throw errors
+- provide appropriate context for screen readers where necessary
+- remove all unnecessary markup and attributes
+- check for any message file properties which may have leaked into the rendered view
+- make sure each page is free from WCAG errors
+- run each page through aXe, WAVE, or both, fixing any errors that are flagged
+- check you can complete this journey without a mouse
+- check you can complete this journey without a screen
+- check you can complete this journey on a mobile device
+- test each page is usable with at least one screen reader
+- test the journey is successful with Voice Control on macOS
+- test the journey is successful with Voice Control on iOS
+- test the journey is successful with VoiceOver on macOS
+- test the journey is successful with VoiceOver on iOS
+- test the journey is successful with JAWS on Windows
+- test the journey is successful with NVDA on Windows
+- test the journey is successful with Orca on Ubuntu
+- test the journey is successful with Dragon
+- test the journey is successful with ZoomText on Windows
+- test the journey is successful with Zoom enabled on macOS
+- test the journey is successful with Zoom enabled on iOS
 
 ## Most common accessibility failings
 
@@ -38,10 +96,10 @@ Ideally, you would be testing your service regularly in your accessibility lab, 
 - Failure of [WCAG 2.0 (A) 4.1.1 Parsing](https://www.w3.org/WAI/WCAG21/Understanding/parsing.html), due to invalid or badly-formed markup. Read more about this at [How to Meet Parsing](https://www.w3.org/WAI/WCAG21/quickref/#parsing).
 - Services are not always using the [alphagov autocomplete](https://github.com/alphagov/accessible-autocomplete) component, or the most up-to-date version (the ones being used are inaccessible with screen readers).
 - `details` components do not always work with JAWS and Internet Explorer, preventing many users from accessing the content. It is presented in its open state, but announced as collapsed, leading the user to believe that there is content that they are unable to access. This occurs when the [details polyfill](https://github.com/hmrc/assets-frontend/blob/master/assets/javascripts/modules/details.polyfill.js) has not been used or initialised.
-- Ideally, refrain from using tabs, as they are only partially implemented and don’t follow the [design system](https://design-system.service.gov.uk/components/tabs/) — which itself is listed as experimental. Their behaviour is not exposed correctly to screen readers, failing [WCAG 2.0 (A) 4.1.2 Name, role, value](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html).
+- Avoid using tabs, as they are only partially implemented and don’t follow the [design system](https://design-system.service.gov.uk/components/tabs/) — which itself is listed as experimental. Their behaviour is not exposed correctly to screen readers, failing [WCAG 2.0 (A) 4.1.2 Name, role, value](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html).
 - Ambiguous links such as ‘Change’, ‘Edit’, ‘Delete’, and ‘Remove’ are not always descriptive when reading out of context. Sometimes the additional unique text is missing such as “Change **‘name’**”. [WCAG 2.1 (A) 2.4.4: Link Purpose](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html).
 - Service time-outs are often present, but do not warn the user that they are about to be timed out or allow the user to extend their time within the service. [WCAG 2.1 (A) 2.2.1: Timing Adjustable](https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html), [WCAG 2.1 (AAA) 2.2.6: Timeouts](https://www.w3.org/WAI/WCAG21/Understanding/timeouts.html).
-- The `autocomplete` attribute is usually always set to ‘off’ on the `form` element, failing [WCAG 2.1 (AA) 1.3.5: Identify input purpose](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html).
+- The `autocomplete` attribute is usually always set to ‘off’ on the `form` element, but you will want to turn it on for certain input fields, or you risk failing [WCAG 2.1 (AA) 1.3.5: Identify input purpose](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html). Further information available: [4.10.18.7 Autofill - HTML Standard](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill).
 - The new contrast of the focus states is not always used and therefore fails to meet [WCAG 2.1 (AA) 1.4.11: Non-Text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html).
 - Error skip links do not always function correctly, failing [WCAG 2.1 (A) 2.4.1: Bypass Blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html).
 - There are often non-descriptive error messages such as ‘This field is required’ that are not very helpful. [WCAG 2.1 (A) 3.3.1: Error Identification](https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html), [WCAG 2.1 (AA) 3.3.3: Error Suggestion](https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html).
@@ -50,6 +108,7 @@ Ideally, you would be testing your service regularly in your accessibility lab, 
 - Page `title` and `h1`s remaining the same on multiple pages throughout a section of the service. Use a unique page title on every page, as instructed in the [page title](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/) pattern. [WCAG 2.1 (A) 2.4.2 Page Titled](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html).
 - Focus order of page items is confusing. [WCAG 2.1 (A) 2.4.3 Focus Order](https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html).
 - Using the presentational `<hr/>` element as a decoration without adding `aria-hidden` to prevent screen readers from trying to interact with it.
+- Failure to check your service works if JavaScript is unavailable.
 
 ## Most common design and usability issues
 
@@ -61,15 +120,16 @@ These are the most common GOV.UK Design System and Usability issues that we see.
 - [Page title](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/)s do not always use the HMRC pattern of ‘Page purpose - service name - GOV.UK’.
 - The [page title](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/) and `h1` often don’t mirror each other.
 - Hint text isn’t announced by screen readers when using the <kbd>tab</kbd> key, or list of form elements because `aria-describedby` has not been used on the input field.
-- Incorrect input `type` being used, which results in the wrong software keyboard being shown on mobile devices.
+- Incorrect input `type` being used, which results in the wrong software keyboard being shown on mobile devices. You can research which `type` has which keyboard over on MDN Web Docs: [`email`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email), [`number`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number), [`search`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search), [`tel`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel), [`url`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url).
+
 - The `fieldset` and `legend` is often used for a single field and not grouped elements.
 - The [error handling requirements](https://design-system.service.gov.uk/components/error-summary/) are not always followed (for example, the phrase ‘Error:’ is sometimes not inserted at the start of the page title).
 - Groups of `radio` buttons often include a hidden `legend` that duplicates the `h1` rather than placing the `h1` inside the `legend`.
 - Sometimes a page has a `legend` that contains the `h1` **and** a paragraph of hint text which can be very verbose for screen reader users. This can also be the case where hint text is included within the `label`.
-- Some [Check your answers](https://design-system.service.gov.uk/patterns/check-answers/) pages are using the ancient `table`-based layout rather than the established definition list.
+- Some [Check your answers](https://design-system.service.gov.uk/patterns/check-answers/) pages are using the older `table`-based layout rather than the newly-established definition list.
 - Sub headings are marked up as bold rather than appropriate heading level.
 - When a role of `button` is used, JavaScript handler should be used to ensure that the link behaves like a button and responds to the <kbd>spacebar</kbd> key press. This handler was added in [govuk-frontend](https://github.com/alphagov/govuk-frontend/blob/master/src/govuk/components/button/button.js) quite some time ago. [WCAG 2.1 (A) 4.1.2 Name, role, value](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html).
-- Error summaries sometimes appear after the `h1`. Use the [error summary component](https://design-system.service.gov.uk/components/error-summary/) at the top of a page, *before* the `h1`.
+- Error summaries sometimes appear after the `h1`. Use the [error summary component](https://design-system.service.gov.uk/components/error-summary/) at the top of a page, *after* the Back link and *before* the `h1`.
 
 ### Further information about WCAG 2.1
 
@@ -86,13 +146,13 @@ These are tools that any member of the team can use at their desk while they're 
 
 While there are many plugins listed here, you don’t have to use all of them. With the exception of Toggle JavaScript, they do a lot of the same things but there is some overlap. Take them all for a spin, see which ones you prefer.
 
-- [ARC Toolkit](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce): The ARC Toolkit is a set of accessibility tools which aids developers in identifying accessibility problems and features for WCAG 2.0, WCAG 2.1, EN 301 549, and Section 508.
-- [axe - Web Accessibility Testing](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd): Accessibility checker for WCAG 2 and Section 508 accessibility. Find accessibility defects on your website or web application by using the axe Chrome extension. Drop the axe on your accessibility defects!
-- [Siteimprove Accessibility Checker](https://chrome.google.com/webstore/detail/siteimprove-accessibility/efcfolpjihicnikpmhnmphjhhpiclljc): The Siteimprove Accessibility Checker is your tool to evaluate any web page for accessibility issues at any given time.
-- [Toggle JavaScript](https://chrome.google.com/webstore/detail/toggle-javascript/cidlcjdalomndpeagkjpnefhljffbnlo): Toggle JavaScript provides a simple, easy-to-access browser button to enable or disable JavaScript globally.
-- [WAVE Evaluation Tool](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh): WAVE is a web accessibility evaluation tool developed by WebAIM.org. It provides visual feedback about the accessibility of your web content by injecting icons and indicators into your page. No automated tool can tell you if your page is accessible, but WAVE facilitates human evaluation and educates about accessibility issues..
-- [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm): The Web Developer extension adds a toolbar button to the browser with various web developer tools.
-- [webhint.io](https://chrome.google.com/webstore/detail/webhint/gccemnpihkbgkdmoogenkbkckppadcag): Quickly test your website to see if there are any issues with accessibility, browser compatibility, security, performance and more.
+- **ARC Toolkit** for [Chrome](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce): The ARC Toolkit is a set of accessibility tools which aids developers in identifying accessibility problems and features for WCAG 2.0, WCAG 2.1, EN 301 549, and Section 508.
+- **axe - Web Accessibility Testing** for [Chrome](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/?src=search): Accessibility checker for WCAG 2 and Section 508 accessibility. Find accessibility defects on your website or web application by using the axe Chrome extension. Drop the axe on your accessibility defects!
+- **Siteimprove Accessibility Checker** for [Chrome](https://chrome.google.com/webstore/detail/siteimprove-accessibility/efcfolpjihicnikpmhnmphjhhpiclljc) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/digital-certainty-index/?src=search): The Siteimprove Accessibility Checker is your tool to evaluate any web page for accessibility issues at any given time.
+- **Toggle JavaScript** for [Chrome](https://chrome.google.com/webstore/detail/toggle-javascript/cidlcjdalomndpeagkjpnefhljffbnlo) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/quick-js-switcher/?src=search): Toggle JavaScript provides a simple, easy-to-access browser button to enable or disable JavaScript globally.
+- **WAVE Evaluation Tool** for [Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/wave-accessibility-tool/): WAVE is a web accessibility evaluation tool developed by WebAIM.org. It provides visual feedback about the accessibility of your web content by injecting icons and indicators into your page. No automated tool can tell you if your page is accessible, but WAVE facilitates human evaluation and educates about accessibility issues.
+- **Web Developer** for [Chrome](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/web-developer/?src=search): The Web Developer extension adds a toolbar button to the browser with various web developer tools.
+- **Webhint** for [Chrome](https://chrome.google.com/webstore/detail/webhint/gccemnpihkbgkdmoogenkbkckppadcag) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/webhint/?src=search): Quickly test your website to see if there are any issues with accessibility, browser compatibility, security, performance and more.
 
 ### Stage two: prototyping tools
 

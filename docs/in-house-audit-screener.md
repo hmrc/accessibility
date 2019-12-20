@@ -1,34 +1,24 @@
-# In-house audit screener
+# Check your service’s accessibility before you get a review
 
-To get the best out of an in-house accessibility review or a formal external audit by Digital Accessibility Centre (DAC), you can help yourselves by carrying out some checks beforehand.
+The accessibility of your service is your team’s responsibility.
 
-To help you we've listed some things you can use throughout development; from prototyping through to deployment.
+Before you have an in-house accessibility review or a formal external audit by Digital Accessibility Centre (DAC), you should check the accessibility of your service.
 
-The accessibility of your service is your responsibility.  Carrying out these checks will help improve the accessibility of your service, save time by eliminating issues early, and help ensure it meets
- the [public sector accessibility regulations](https://confluence.tools.tax.service.gov.uk/display/DSA/Regulations+to+make+public+sector+websites+and+mobile+applications+accessible).
+To help you we’ve listed some things you can check for throughout development.
 
-<!-- TOC -->
-
-- [When should you consider accessibility](#when-should-you-consider-accessibility)
-  - [Definition of Ready](#definition-of-ready)
-  - [Definition of Done](#definition-of-done)
-- [Most common accessibility failings](#most-common-accessibility-failings)
-- [Most common design and usability issues](#most-common-design-and-usability-issues)
-  - [Further information about WCAG 2.1](#further-information-about-wcag-21)
-- [Make use of automated helpers](#make-use-of-automated-helpers)
-  - [Stage one: browser plugins](#stage-one-browser-plugins)
-  - [Stage two: prototyping tools](#stage-two-prototyping-tools)
-  - [Stage three: Continuous Integration tools](#stage-three-continuous-integration-tools)
-
-<!-- /TOC -->
+Carrying out these checks will help you:
+- improve the accessibility of your service
+- save time by eliminating issues early
+- make sure it meets
+ the [public sector accessibility regulations](https://confluence.tools.tax.service.gov.uk/display/DSA/Regulations+to+make+public+sector+websites+and+mobile+applications+accessible)
 
 ## When should you consider accessibility
 
-There is often a temptation to *“do it at the end”* &mdash; we do not do this. Accessibility is a user need. You should be thinking about the access needs of your users from the start of design, research and development.
+Accessibility is a user need. You should be thinking about the access needs of your users from the start of design, research and development. Do not leave it until the end.
 
 ### Definition of Ready
 
-Designers should make sure accessibility is part of what they do. Keep content, flows and screens simple to help people with learning disabilities, mental health conditions, cognitive impairments and autism.
+Designers should make sure accessibility is part of what they do. Keep content, flows and screens simple. This helps people with learning disabilities, mental health conditions, cognitive impairments and autism.
 
 To make sure accessibility is part of the story, include:
 
@@ -53,15 +43,15 @@ Most of this should be part of standard components but may help if it is part of
 
 ### Definition of Done
 
-As an absolute bare minimum, we recommend following these three tasks from the longer list below.
+As an absolute bare minimum, we recommend following these three tasks:
 
 1. Make sure each page contains valid HTML.
 2. Make sure each page is free from WCAG errors.
 3. Test each page is usable with at least one screen reader.
 
-You should be positive that these tasks are completed to satisfaction before you consider requesting an in-house audit before your DAC audit. The best way to achieve that is to validate the HTML of each page and use a tool like axe or Pa11y to test for WCAG errors as you’re test driving your service with a screen reader at the end of each sprint.
+You should make sure these tasks are complete before you request an in-house audit. The best way to do this is to validate the HTML of each page. Use a tool like axe or Pa11y to test for WCAG errors as you’re test driving your service with a screen reader at the end of each sprint.
 
-Most of this work can be done at your own desk. The assistive tech journeys are best done in the lab.
+Most of this work can be done at your own desk. The assistive tech journeys are best done in the accessibility lab, if you have one in your Delivery Centre.
 
 - make sure each page contains valid HTML
 - make sure each page contains valid CSS
@@ -91,58 +81,127 @@ Most of this work can be done at your own desk. The assistive tech journeys are 
 
 ## Most common accessibility failings
 
-Ideally, you would be testing your service regularly in your accessibility lab, using the range of devices that are available. That will get you a long way towards avoiding the most common accessibility failings that we see.
+Ideally you should test your service regularly in the accessibility lab, using a range of devices. This will get you a long way towards avoiding the most common accessibility failings that we see.
 
-- Failure of [WCAG 2.0 (A) 4.1.1 Parsing](https://www.w3.org/WAI/WCAG21/Understanding/parsing.html), due to invalid or badly-formed markup. Read more about this at [How to Meet Parsing](https://www.w3.org/WAI/WCAG21/quickref/#parsing).
-- Services are not always using the [alphagov autocomplete](https://github.com/alphagov/accessible-autocomplete) component, or the most up-to-date version (the ones being used are inaccessible with screen readers).
-- `details` components do not always work with JAWS and Internet Explorer, preventing many users from accessing the content. It is presented in its open state, but announced as collapsed, leading the user to believe that there is content that they are unable to access. This occurs when the [details polyfill](https://github.com/hmrc/assets-frontend/blob/master/assets/javascripts/modules/details.polyfill.js) has not been used or initialised.
-- Avoid using tabs, as they are only partially implemented and don’t follow the [design system](https://design-system.service.gov.uk/components/tabs/) — which itself is listed as experimental. Their behaviour is not exposed correctly to screen readers, failing [WCAG 2.0 (A) 4.1.2 Name, role, value](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html).
-- Ambiguous links such as ‘Change’, ‘Edit’, ‘Delete’, and ‘Remove’ are not always descriptive when reading out of context. Sometimes the additional unique text is missing such as “Change **‘name’**”. [WCAG 2.1 (A) 2.4.4: Link Purpose](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html).
-- Service time-outs are often present, but do not warn the user that they are about to be timed out or allow the user to extend their time within the service. [WCAG 2.1 (A) 2.2.1: Timing Adjustable](https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html), [WCAG 2.1 (AAA) 2.2.6: Timeouts](https://www.w3.org/WAI/WCAG21/Understanding/timeouts.html).
-- The `autocomplete` attribute is usually always set to ‘off’ on the `form` element, but you will want to turn it on for certain input fields, or you risk failing [WCAG 2.1 (AA) 1.3.5: Identify input purpose](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html). Further information available: [4.10.18.7 Autofill - HTML Standard](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill).
-- The new contrast of the focus states is not always used and therefore fails to meet [WCAG 2.1 (AA) 1.4.11: Non-Text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html).
-- Error skip links do not always function correctly, failing [WCAG 2.1 (A) 2.4.1: Bypass Blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html).
-- There are often non-descriptive error messages such as ‘This field is required’ that are not very helpful. [WCAG 2.1 (A) 3.3.1: Error Identification](https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html), [WCAG 2.1 (AA) 3.3.3: Error Suggestion](https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html).
-- The [`legend`](https://html.spec.whatwg.org/multipage/form-elements.html#the-legend-element) is not always the first element within the [`fieldset`](https://html.spec.whatwg.org/multipage/form-elements.html#the-fieldset-element). This is invalid markup, failing [WCAG 2.0 (A) 4.1.1 Parsing](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-parses.html).
-- `fieldset` and `legend` not being used on date patterns, also known as not following the established [date input](https://design-system.service.gov.uk/components/date-input/) pattern.
-- Page `title` and `h1`s remaining the same on multiple pages throughout a section of the service. Use a unique page title on every page, as instructed in the [page title](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/) pattern. [WCAG 2.1 (A) 2.4.2 Page Titled](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html).
-- Focus order of page items is confusing. [WCAG 2.1 (A) 2.4.3 Focus Order](https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html).
-- Using the presentational `<hr/>` element as a decoration without adding `aria-hidden` to prevent screen readers from trying to interact with it.
-- Failure to check your service works if JavaScript is unavailable.
+### Failure of WCAG 2.0 (A) 1.3.1 info and relationships
+
+Most commonly caused by using unestablished patterns. Read more about this at [How to Meet Info and Relationships](https://www.w3.org/WAI/WCAG21/quickref/#info-and-relationships).
+
+### Failure of WCAG 2.0 (A) 4.1.1 parsing
+
+Most commonly caused by invalid HTML. Read more about this at [How to Meet Parsing](https://www.w3.org/WAI/WCAG21/quickref/#parsing).
+
+### Not using the alphagov autocomplete
+
+You should use the [alphagov accessible autocomplete component](https://github.com/alphagov/accessible-autocomplete). If you cannot, then use the most up-to-date version.
+
+### Details components not working with JAWS and Internet Explorer
+
+This stops many users from accessing content. Content is presented in its open state, but announced as collapsed. This leads the user to think that there is content that they are not able to access. This happens when the [`details` polyfill](https://github.com/hmrc/assets-frontend/blob/master/assets/javascripts/modules/details.polyfill.js) has not been used or initialised.
+
+### Tabs
+
+It’s best to not use tabs, because they are only partially implemented and do not follow the [design system](https://design-system.service.gov.uk/components/tabs/). The behaviour of tabs is not shown correctly to screen readers, so this fails [WCAG 2.0 (A) 4.1.2 Name, role, value](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html).
+
+### Ambiguous links
+
+Link text such as ‘Change’, ‘Edit’, ‘Delete’, and ‘Remove’ are not always descriptive when read out of context. Sometimes the additional unique text is missing such as “Change **‘name’**”.
+[WCAG 2.1 (A) 2.4.4: Link Purpose](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html).
+
+### Not warning users that they are about to be timed out
+
+Service time-outs are often present, but do not warn the user that they are about to be timed out. You must also allow the user to extend their time within the service. [WCAG 2.1 (A) 2.2.1: Timing Adjustable](https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable.html).
+
+### The autocomplete attribute
+
+This is usually set to ‘off’ on the `form` element, but you will want to turn it on for certain input fields, or you risk failing [WCAG 2.1 (AA) 1.3.5: Identify input purpose](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html). Further information available: [Autofill - HTML Standard](https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#autofill).
+
+### Contrast on focus states
+
+The new colour contrast of the focus states is not always used. This fails [WCAG 2.1 (AA) 1.4.11: Non-Text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html).
+
+### Error skip links
+
+These do not always function correctly, failing [WCAG 2.1 (A) 2.4.1: Bypass Blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html).
+
+### Error messages
+
+There are often non-descriptive error messages such as ‘This field is required’. This type of vague message is not helpful for the user. [WCAG 2.1 (A) 3.3.1: Error Identification](https://www.w3.org/WAI/WCAG21/Understanding/error-identification.html)
+
+### Duplicate page titles and H1s
+
+Page titles and `h1`s are often the same on multiple pages throughout a section of the service. You must use a unique page title on every page, as shown in the [page title pattern](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/). [WCAG 2.1 (A) 2.4.2 Page Titled](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html).
+
+### Focus order of page items is confusing
+
+These should maintain a logical order. For example, do not focus on an edit link before the section heading tells the user what they are editing. [WCAG 2.1 (A) 2.4.3 Focus Order](https://www.w3.org/WAI/WCAG21/Understanding/focus-order.html).
+
+### Using the presentational `<hr/>` element as a decoration
+
+This needs an `aria-hidden` to prevent screen readers from trying to interact with it.
+
+### Service not working if JavaScript is unavailable
+
+Progressive enhancement must be used to provide a usable service at all times. The GOV.UK Service Manual offers guidance on this: [Building a resilient frontend using progressive enhancement](https://www.gov.uk/service-manual/technology/using-progressive-enhancement).
 
 ## Most common design and usability issues
 
-Of course, accessibility isn't just about compliance with regulations—your services have to be usable as well. Using the [GDS Design System](https://design-system.service.gov.uk/) and our own HMRC [Design Patterns library](https://design.tax.service.gov.uk/hmrc-design-patterns/) is the best way to create a usable and accessible service, but there are still plenty of wrong turns you can take.
+These are the most common GOV.UK Design System and usability issues that we see.
 
-These are the most common GOV.UK Design System and Usability issues that we see.
+### Page title
 
-- The ‘(Optional)’ information is not always included within non-mandatory field labels.
-- [Page title](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/)s do not always use the HMRC pattern of ‘Page purpose - service name - GOV.UK’.
-- The [page title](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/) and `h1` often don’t mirror each other.
-- Hint text isn’t announced by screen readers when using the <kbd>tab</kbd> key, or list of form elements because `aria-describedby` has not been used on the input field.
-- Incorrect input `type` being used, which results in the wrong software keyboard being shown on mobile devices. You can research which `type` has which keyboard over on MDN Web Docs: [`email`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email), [`number`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number), [`search`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search), [`tel`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel), [`url`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url).
+[Page titles](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/) do not always use the HMRC pattern of ‘Page purpose - service name - GOV.UK’. Page titles and `h1`s often do not mirror each other.
 
-- The `fieldset` and `legend` is often used for a single field and not grouped elements.
-- The [error handling requirements](https://design-system.service.gov.uk/components/error-summary/) are not always followed (for example, the phrase ‘Error:’ is sometimes not inserted at the start of the page title).
-- Groups of `radio` buttons often include a hidden `legend` that duplicates the `h1` rather than placing the `h1` inside the `legend`.
-- Sometimes a page has a `legend` that contains the `h1` **and** a paragraph of hint text which can be very verbose for screen reader users. This can also be the case where hint text is included within the `label`.
-- Some [Check your answers](https://design-system.service.gov.uk/patterns/check-answers/) pages are using the older `table`-based layout rather than the newly-established definition list.
-- Sub headings are marked up as bold rather than appropriate heading level.
-- When a role of `button` is used, JavaScript handler should be used to ensure that the link behaves like a button and responds to the <kbd>spacebar</kbd> key press. This handler was added in [govuk-frontend](https://github.com/alphagov/govuk-frontend/blob/master/src/govuk/components/button/button.js) quite some time ago. [WCAG 2.1 (A) 4.1.2 Name, role, value](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html).
-- Error summaries sometimes appear after the `h1`. Use the [error summary component](https://design-system.service.gov.uk/components/error-summary/) at the top of a page, *after* the Back link and *before* the `h1`.
+### Hint text
 
-### Further information about WCAG 2.1
+Hint text is often not announced by screen readers when using the <kbd>tab</kbd> key or list of form elements. This is because `aria-describedby` has not been used on the input field.
 
-- [GOV.UK WCAG 2.1 Primer](https://alphagov.github.io/wcag-primer/#what-is-wcag-2-1)
-- [What’s New in WCAG 2.1](https://www.w3.org/WAI/standards-guidelines/wcag/new-in-21/)
-- [Techniques for WCAG 2.1](https://www.w3.org/WAI/WCAG21/Techniques/)
-- [How to Meet WCAG (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/)
+### Incorrect input type
+
+When the incorrect input type is used, the wrong software keyboard is shown on mobile devices. You can research which type has which keyboard on MDN Web Docs:
+- [`email`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email)
+- [`number`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number)
+- [`search`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search)
+- [`tel`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel)
+- [`url`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url)
+
+### Fieldset and legend not grouped elements
+
+The `fieldset` and `legend` is often misused for a single field and not grouped elements.
+
+### Error handling requirements not followed
+
+The [error handling requirements](https://design-system.service.gov.uk/components/error-summary/) are not always followed. For example, the phrase ‘Error:’ is sometimes not inserted at the start of the page title.
+
+### H1 not inside the legend
+
+Groups of `radio` buttons often include a hidden `legend` that duplicates the `h1`. Instead, you should place the `h1` inside the `legend`.
+
+### Legend includes H1 and hint text
+
+Sometimes a page has a `legend` or a `label` that contains the `h1` and a paragraph of hint text. This can be very verbose for screen reader users.
+
+### Tables on check you answers pages
+
+Some [Check your answers](https://design-system.service.gov.uk/patterns/check-answers/) pages use the old table-based layout. Instead, you should use the established definition list.
+
+### Sub-headings not marked up properly
+
+Sub-headings are marked up as bold rather than appropriate heading level. This is a failure of [WCAG 2.0 (A) 1.3.1 Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html).
+
+### JavaScript handler not used for buttons
+
+When a role of button is used, JavaScript handler should be used. This makes sure that the link behaves like a button and responds to the <kbd>spacebar</kbd> key press. This handler is in [govuk-frontend](https://github.com/alphagov/govuk-frontend/blob/master/src/govuk/components/button/button.js). [WCAG 2.1 (A) 4.1.2 Name, role, value](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html).
+
+### Error summaries appearing after the H1
+
+Error summaries sometimes appear after the `h1`. Use the [error summary component](https://design-system.service.gov.uk/components/error-summary/) at the top of a page, after the Back link and before the `h1`.
 
 ## Make use of automated helpers
 
 ### Stage one: browser plugins
 
-These are tools that any member of the team can use at their desk while they're testing the service. These examples are all for Chrome, but they’re available for Firefox as well.
+These are tools that any member of the team can use at their desk while they’re testing the service. These examples are all for Chrome, but they’re available for Firefox as well.
 
 While there are many plugins listed here, you don’t have to use all of them. With the exception of Toggle JavaScript, they do a lot of the same things but there is some overlap. Take them all for a spin, see which ones you prefer.
 
@@ -156,7 +215,7 @@ While there are many plugins listed here, you don’t have to use all of them. W
 
 ### Stage two: prototyping tools
 
-It's good practice to write good, error-free code. And once you're out testing your prototype with users who have access needs, you're going to be wanting well-formed HTML with zero errors, and as few accessibility problems as possible. While these tools won't make your prototype bulletproof, they'll go a long way towards fixing your mistakes and guiding you in the right direction.
+It’s good practice to write good, error-free code. And once you’re out testing your prototype with users who have access needs, you’re going to be wanting well-formed HTML with zero errors, and as few accessibility problems as possible. While these tools won’t make your prototype bulletproof, they’ll go a long way towards fixing your mistakes and guiding you in the right direction.
 
 - [HTMLHint](https://github.com/htmlhint/HTMLHint): The static code analysis tool you need for your HTML.
 - [ESLint](https://github.com/eslint/eslint): A fully pluggable tool for identifying and reporting on patterns in JavaScript.
@@ -167,7 +226,7 @@ It's good practice to write good, error-free code. And once you're out testing y
 
 ### Stage three: Continuous Integration tools
 
-Once your service is deployed to staging you'll want to be running tests against it. We have the following available which you can use.
+Once your service is deployed to staging you’ll want to be running tests against it. We have the following available which you can use.
 
 - [hmrc/accessibility-testing-library](https://github.com/hmrc/accessibility-testing-library): This library can be used to integrate a number of automated tools into Selenium UI test repositories to help identify a number of potential accessibility issues in web front-ends.
 - [hmrc/accessibility-assessment](https://github.com/hmrc/accessibility-assessment): This project contains the Dockerfile and images assets required to create the accessibility-assessment image that is used in CI for the assessment of captured pages using `axe`, `pa11y` and `vnu`. The violations found during the assessment are pushed to ELK.

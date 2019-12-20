@@ -93,7 +93,7 @@ Most commonly caused by invalid HTML. Read more about this at [How to Meet Parsi
 
 ### Not using the alphagov autocomplete
 
-You should use the [alphagov accessible autocomplete component](https://github.com/alphagov/accessible-autocomplete). If you cannot, then use the most up-to-date version.
+You should use the most up-to-date version of the [alphagov accessible autocomplete component](https://github.com/alphagov/accessible-autocomplete), rather than the ones which are inaccessible with screen readers.
 
 ### Details components not working with JAWS and Internet Explorer
 

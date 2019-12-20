@@ -1,3 +1,3 @@
-# Service Standards
+# Accessibility
 
-- [In-house audit screener](docs/in-house-audit-screener.md)
+- [Check your service’s accessibility before you get a review](docs/check-your-services-accessibility-before-you-get-a-review.md)

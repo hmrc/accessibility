@@ -1,4 +1,4 @@
-# Check your service’s accessibility before you get a review
+# Check the accessibility of your service before you get a review
 
 The accessibility of your service is your team’s responsibility.
 
@@ -23,17 +23,17 @@ Designers should make sure accessibility is part of what they do. Keep content, 
 To make sure accessibility is part of the story, include:
 
 - human readable URLs
-- page titles that are different to headings to stop personally identifiable information being stored in Google Analytics, for example ‘What is Gordon’s date of birth?’ would need to be ‘What is the child’s date of birth?’
+- page titles that are the same as the `h1` heading (but be aware of the [Personally identifiable information](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/#personally-identifiable-information) caveat)
 - reading order when there are differences between what is visible and what is read out loud
 - hidden text for screen readers, where necessary
 - colours and colour contrast
 - if something is tabular data or not and suggest HTML solutions or patterns
-- line spacing and whitespace
+- the right design patterns to provide the user with consistent line spacing and whitespace
 - non-breaking spaces and hyphens to stop unwanted word wrapping
 - simple, easy to understand content that meets the content style guide
 - how will this look on mobile (remember a zoomed in desktop screen will effectively become a mobile viewport)
 - how this will work without javascript
-- if the journey more than a few screens and whether we allow the user to save and come back later
+- if the journey is more than a few screens and whether we allow the user to save and come back later
 - whether people using assistive technology might need extra time to complete tasks
 - accommodation for screen zoom and whether the screen still makes sense at +200%
 - secondary methods to convey meaning rather than just colour alone
@@ -47,41 +47,56 @@ As an absolute bare minimum, we recommend following these three tasks:
 
 1. Make sure each page contains valid HTML.
 2. Make sure each page is free from WCAG errors.
-3. Test each page is usable with at least one screen reader.
+3. Test each page with a screen reader.
 
-You should make sure these tasks are complete before you request an in-house audit. The best way to do this is to validate the HTML of each page. Use a tool like axe or Pa11y to test for WCAG errors as you’re test driving your service with a screen reader at the end of each sprint.
+You should make sure these tasks are complete before you request an in-house audit. The best way to do this is to validate the HTML of each page. Use a tool like [axe](https://github.com/dequelabs/axe-core) or [Pa11y](https://github.com/pa11y/pa11y) to test for WCAG errors. Test some user journeys with a screen reader at the end of each sprint.
+
+#### How you can test your service
 
 Most of this work can be done at your own desk. The assistive tech journeys are best done in the accessibility lab, if you have one in your Delivery Centre.
+
+##### Code quality
 
 - make sure each page contains valid HTML
 - make sure each page contains valid CSS
 - make sure each page works without CSS
 - make sure each page works without JS
 - make sure the JS doesn’t throw errors
-- provide appropriate context for screen readers where necessary
 - remove all unnecessary markup and attributes
 - check for any message file properties which may have leaked into the rendered view
 - make sure each page is free from WCAG errors
-- run each page through aXe, WAVE, or both, fixing any errors that are flagged
+- run each page through tools like axe and Pa11y, fixing any errors that are flagged
+
+##### Usability
+
+- provide appropriate context for screen readers where necessary
 - check you can complete this journey without a mouse
 - check you can complete this journey without a screen
 - check you can complete this journey on a mobile device
-- test each page is usable with at least one screen reader
-- test the journey is successful with Voice Control on macOS
-- test the journey is successful with Voice Control on iOS
+- test each page is usable with **at least one** screen reader (see below)
+
+##### Screen readers
+
 - test the journey is successful with VoiceOver on macOS
 - test the journey is successful with VoiceOver on iOS
 - test the journey is successful with JAWS on Windows
 - test the journey is successful with NVDA on Windows
 - test the journey is successful with Orca on Ubuntu
-- test the journey is successful with Dragon
+
+##### Screen magnifiers
+
 - test the journey is successful with ZoomText on Windows
 - test the journey is successful with Zoom enabled on macOS
 - test the journey is successful with Zoom enabled on iOS
 
+##### Voice control
+
+- test the journey is successful with Dragon
+- test the journey is successful with Voice Control
+
 ## Most common accessibility failings
 
-Ideally you should test your service regularly in the accessibility lab, using a range of devices. This will get you a long way towards avoiding the most common accessibility failings that we see.
+Ideally you should test your service regularly in the accessibility lab, using a range of devices. This will get you a long way towards avoiding the most common accessibility failings.
 
 ### Failure of WCAG 2.0 (A) 1.3.1 info and relationships
 

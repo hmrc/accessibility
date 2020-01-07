@@ -113,7 +113,7 @@ Rather than using `select` inputs for long lists, consider using the latest vers
 
 #### Make sure you initialise any details components
 
-The [details component](https://design-system.service.gov.uk/components/details/) is a native browser control, but is not supported in some older browsers (e.g. IE 11) and some assisitive technology (JAWS) without use of a [polyfill](https://github.com/hmrc/assets-frontend/blob/master/assets/javascripts/modules/details.polyfill.js).
+The [details component](https://design-system.service.gov.uk/components/details/) is a native browser control, but is not supported in some older browsers (e.g. IE 11) and some assistive technology (JAWS) without the use of a [polyfill](https://github.com/hmrc/assets-frontend/blob/master/assets/javascripts/modules/details.polyfill.js).
 
 #### Avoid using tabs
 
@@ -141,7 +141,7 @@ Success criteria for [WCAG 2.1 (A) 3.3.1: Error Identification](https://www.w3.o
 
 ### Validate your HTML
 
-If HTML is not valid it will cause parsing issues for assistive technology (among other side-effects). Many accessibility auditing plugins (like AXE) will check for invalid HTML alongside accessiblity issues.
+If HTML is not valid it will cause parsing issues for assistive technology (among other side-effects). Many accessibility auditing plugins (like AXE) will check for invalid HTML alongside accessibility issues.
 
 Read more about this at [How to Meet Parsing](https://www.w3.org/WAI/WCAG21/quickref/#parsing).
 
@@ -165,7 +165,7 @@ Success criteria for [WCAG 2.1 (AA) 1.4.11: Non-Text Contrast](https://www.w3.or
 
 ### `h1` and page title should be the same
 
-The visible `h1` on the page and the page title (in the browser tab) should be the same. However you should also make sure that pages which follow each other have different titles/`h1` so when the user navigates they know they have moved to a different page and the last page hasn't just reloaded. See the [page title pattern](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/) for more information.
+The visible `h1` on the page and the page title (in the browser tab) should be the same. However you should also make sure that the pages which follow each other have different titles/`h1` so when the user navigates they know they have moved to a different page and the last page hasn't just reloaded. See the [page title pattern](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/) for more information.
 
 Success criteria for [WCAG 2.1 (A) 2.4.2 Page Titled](https://www.w3.org/WAI/WCAG21/Understanding/page-titled.html).
 
@@ -253,7 +253,7 @@ Success criteria for [WCAG 2.1 (A) 4.1.2 Name, role, value](https://www.w3.org/T
 
 ### Stage one: browser plugins
 
-These are tools that any member of the team can use at their desk while they’re testing the service. These examples are all for Chrome, but they’re available for Firefox as well.
+These are tools that any member of the team can use at their desk while they’re testing the service.
 
 While there are many plugins listed here, you don’t have to use all of them. With the exception of Toggle JavaScript, they do a lot of the same things but there is some overlap. Take them all for a spin, see which ones you prefer.
 

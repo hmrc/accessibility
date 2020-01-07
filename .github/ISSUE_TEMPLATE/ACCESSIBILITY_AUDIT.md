@@ -1,7 +1,7 @@
 ---
 name: "\U0000267F Accessibility audit"
 about: "Use this template for requesting an in-house accessibility audit."
-title: "[DATE]: [FEATURE NAME]"
+title: "AUDIT: [SERVICE NAME]"
 labels: audit
 projects: "In-house Audits"
 assignees: philsherry
@@ -35,28 +35,30 @@ This is the preferred style.
     1. Data entry on the page
     1. Actions taken on the page
 
-With that in mind, you’d be looking at supplying us with something like this:
+You will also need to supply any relevant information for signing in.
 
-##### Connect to VPN before entering the URL
+With that in mind, you’d be looking at putting together something like this:
 
-URL: <https://www.staging.tax.service.gov.uk/auth-login-stub/gg-sign-in>
-
-##### Authority Wizard
-
-- Redirect URL: `/your-service-url`
-- Affinity Group: `Organisation`
-- Enrolment Key: `IR-CT`
-- Identifier Name: `UTR`
-- Identifier Value: `1234567890`
-- Select: <kbd>Submit</kbd>
-
-#### Steps to complete the unhappy path for journey 2
-
-1. ‘Check this is the business you want to register’
-    1. Select: <kbd>Confirm</kbd>
-2. ‘What is your company registration number?’
-    1. Enter: `72936602`
-    2. Select: <kbd>Save and continue</kbd>
+> ##### Connect to VPN before entering the URL
+>
+> URL: <https://www.staging.tax.service.gov.uk/auth-login-stub/gg-sign-in>
+>
+> ##### Authority Wizard
+>
+> - Redirect URL: `/your-service-url`
+> - Affinity Group: `Organisation`
+> - Enrolment Key: `IR-CT`
+> - Identifier Name: `UTR`
+> - Identifier Value: `1234567890`
+> - Select: <kbd>Submit</kbd>
+>
+> #### Steps to complete the unhappy path for journey 2
+>
+> 1. ‘Check this is the business you want to register’
+>     1. Select: <kbd>Confirm</kbd>
+> 2. ‘What is your company registration number?’
+>     1. Enter: `72936602`
+>     2. Select: <kbd>Save and continue</kbd>
 
 There should not be need for more than 8 journeys to be submitted from a service.
 

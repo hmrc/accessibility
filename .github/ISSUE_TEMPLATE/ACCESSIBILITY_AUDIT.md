@@ -23,6 +23,43 @@ Before raising this request for an in-house accessibility audit, we did the foll
 - [ ] Made sure each page of our service is free from WCAG errors.
 - [ ] Tested each page of our service with at least one screen reader, to make sure it was usable.
 
+### In order to request your audit
+
+We need you to provide us with user journeys. These should cover signing into the service, the steps taken to complete the journey successfully, and any steps to exit the service in specific ways.
+
+This is the preferred style.
+
+#### Journey title and state if applicable
+
+1. Page title
+    1. Data entry on the page
+    1. Actions taken on the page
+
+With that in mind, you’d be looking at supplying us with something like this:
+
+##### Connect to VPN before entering the URL
+
+URL: <https://www.staging.tax.service.gov.uk/auth-login-stub/gg-sign-in>
+
+##### Authority Wizard
+
+- Redirect URL: `/your-service-url`
+- Affinity Group: `Organisation`
+- Enrolment Key: `IR-CT`
+- Identifier Name: `UTR`
+- Identifier Value: `1234567890`
+- Select: <kbd>Submit</kbd>
+
+#### Steps to complete the unhappy path for journey 2
+
+1. ‘Check this is the business you want to register’
+    1. Select: <kbd>Confirm</kbd>
+2. ‘What is your company registration number?’
+    1. Enter: `72936602`
+    2. Select: <kbd>Save and continue</kbd>
+
+There should not be need for more than 8 journeys to be submitted from a service.
+
 ### After you request your audit
 
 Once your Issue is raised, you’ll be able to track its progress on our [In-house Audits](https://github.com/hmrc/accessibility/projects/1) board. You’ll also be able to see how many other audits we may have in the queue before it, so please be patient.

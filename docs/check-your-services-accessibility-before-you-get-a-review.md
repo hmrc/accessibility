@@ -212,6 +212,7 @@ Generally you should just use `fieldset` for the instances above. Do not be temp
 If you are only asking one question on the page you should try and combine the `h1` with the question’s `label` or `legend`. This means that people using screen readers do not hear the same copy repeated more than necessary.
 
 #### `legend + h1`
+
 With `legend`, the `h1` sits inside the `legend`:
 
     <legend><h1>Page title</h1></legend>

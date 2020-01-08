@@ -119,6 +119,10 @@ You can initialise the component by adding the following code in your JavaScript
 
     GOVUK.details.init();
 
+Better still, you can initialise all of the components in one go.
+
+     GOVUK.initAll();
+
 #### Avoid using tabs
 
 True tabs are difficult to correctly implement in an accessible manner. Whilst there is a tabs pattern in the Design System, we do not recommend their use currently and they have been marked as Experimental for this reason. If you feel you need to use tabs, contact one of the accessibility team.

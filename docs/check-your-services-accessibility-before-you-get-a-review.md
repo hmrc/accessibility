@@ -113,7 +113,11 @@ Rather than using `select` inputs for long lists, consider using the latest vers
 
 #### Make sure you initialise any details components
 
-The [details component](https://design-system.service.gov.uk/components/details/) is a native browser control, but is not supported in some older browsers (e.g. IE 11) and some assistive technology (JAWS) without the use of a [polyfill](https://github.com/hmrc/assets-frontend/blob/master/assets/javascripts/modules/details.polyfill.js).
+The [details component](https://design-system.service.gov.uk/components/details/) is a native browser control, but is not supported in some older browsers (most notably IE 11) and some assistive technology (JAWS) without the use of a [polyfill](https://github.com/hmrc/assets-frontend/blob/master/assets/javascripts/modules/details.polyfill.js).
+
+You can initialise the component by adding the following code in your JavaScript.
+
+    GOVUK.details.init();
 
 #### Avoid using tabs
 

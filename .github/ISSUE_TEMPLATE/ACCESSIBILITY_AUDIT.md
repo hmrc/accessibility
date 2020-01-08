@@ -13,7 +13,7 @@ The accessibility of your service is your team’s responsibility.
 
 ### Before you request your audit
 
-Before you request an in-house accessibility audit, there are some basic targets that we’d like you to hit. Meeting these targets before your request will save us all some time, meaning you’ll get your audit back sooner. If you think you need help with this, [check your service’s accessibility before you get a review](https://github.com/hmrc/accessibility/blob/master/docs/check-your-services-accessibility-before-you-get-a-review.md).
+Before you request an in-house accessibility audit, there are some basic targets that we’d like you to hit. Meeting these targets before your request will save us all some time, meaning you’ll get your audit back sooner. If you think you need help with this, we’ve written some guidance to help you [check the accessibility of your service before you get a review](https://github.com/hmrc/accessibility/blob/master/docs/check-your-services-accessibility-before-you-get-a-review.md).
 
 ✅ **Please tick the boxes below to show you’ve read the requirements.**
 
@@ -37,7 +37,7 @@ This is the preferred style.
 
 You will also need to supply any relevant information for signing in.
 
-With that in mind, you’d be looking at putting together something like this:
+With that in mind, you’d be looking at putting together something like this to attach to your request:
 
 > ##### Connect to VPN before entering the URL
 >
@@ -60,8 +60,8 @@ With that in mind, you’d be looking at putting together something like this:
 >     1. Enter: `72936602`
 >     2. Select: <kbd>Save and continue</kbd>
 
-There should not be need for more than 8 journeys to be submitted from a service.
+There should never be a need for more than 8 journeys to be submitted from a service.
 
 ### After you request your audit
 
-Once your Issue is raised, you’ll be able to track its progress on our [In-house Audits](https://github.com/hmrc/accessibility/projects/1) board. You’ll also be able to see how many other audits we may have in the queue before it, so please be patient.
+Once your Issue is raised, you’ll be able to track its progress on our [In-house Audits](https://github.com/hmrc/accessibility/projects/1) board. You’ll also be able to see how many other audits we may have in the queue before it. Please be patient, we are a small team. 🤖🤖

@@ -10,6 +10,7 @@ on:
   push:
     branches:
       - master
+      - develop
     paths:
       - "**.md"
       - .github/workflows/github-action-markdownlint-cli.yml
@@ -17,7 +18,7 @@ on:
 
 jobs:
   markdownlint-check:
-    runs-on: [self-hosted, linux, ARM32]
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 

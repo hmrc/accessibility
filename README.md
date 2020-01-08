@@ -1,8 +1,3 @@
+# Accessibility
 
-# service-standards
-
-This is a placeholder README.md for a new repository
-
-### License
-
-This code is open source software licensed under the [Apache 2.0 License]("http://www.apache.org/licenses/LICENSE-2.0.html").
+- [Check the accessibility of your service before you get a review](docs/check-your-services-accessibility-before-you-get-a-review.md)

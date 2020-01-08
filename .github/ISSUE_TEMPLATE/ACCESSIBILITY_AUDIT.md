@@ -6,7 +6,7 @@ labels: audit
 projects: "In-house Audits"
 assignees: philsherry
 ---
-
+<!-- DROP YOUR USER JOURNEY FILES INTO THIS WINDOW -->
 ## Accessibility audit
 
 The accessibility of your service is your team’s responsibility.
@@ -65,3 +65,5 @@ There should never be a need for more than 8 journeys to be submitted from a ser
 ### After you request your audit
 
 Once your Issue is raised, you’ll be able to track its progress on our [In-house Audits](https://github.com/hmrc/accessibility/projects/1) board. You’ll also be able to see how many other audits we may have in the queue before it. Please be patient, we are a small team. 🤖🤖
+
+<!-- DROP YOUR USER JOURNEY FILES HERE IF YOU HAVEN'T ALREADY -->

@@ -1,0 +1,29 @@
+name: markdown
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    paths:
+      - "**.md"
+      - .github/workflows/github-action-markdownlint-cli.yml
+      - .markdownlint.json
+  push:
+    branches:
+      - master
+      - develop
+    paths:
+      - "**.md"
+      - .github/workflows/github-action-markdownlint-cli.yml
+      - .markdownlint.json
+
+jobs:
+  markdownlint-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: markdownlint-cli
+        uses: nosborn/github-action-markdown-cli@v1.1.1
+        with:
+          files: .
+          config_file: ".markdownlint.json"

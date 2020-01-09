@@ -1,8 +1,8 @@
-# Check the accessibility of your service before you get a review
+# Check the accessibility of your service before you get an audit
 
 The accessibility of your service is your team’s responsibility.
 
-Before you have an in-house accessibility review or a formal external audit by Digital Accessibility Centre (DAC), you should check the accessibility of your service.
+Before you have an in-house accessibility audit or a formal external audit by Digital Accessibility Centre (DAC), you should check the accessibility of your service.
 
 To help you we’ve listed some things you can check for throughout development.
 
@@ -125,7 +125,7 @@ Better still, you can initialise all of the components in one go.
 
 #### Avoid using tabs
 
-True tabs are difficult to correctly implement in an accessible manner. Whilst there is a tabs pattern in the Design System, we do not recommend their use currently and they have been marked as Experimental for this reason. If you feel you need to use tabs, contact one of the accessibility team.
+True tabs are difficult to correctly implement in an accessible manner. Whilst there is a tabs pattern in the Design System, we do not recommend their use currently and they have been marked as Experimental for this reason. If you feel you need to use tabs, contact a member of the accessibility team.
 
 Success criteria for [WCAG 2.0 (A) 4.1.2 Name, role, value](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html).
 
@@ -216,6 +216,7 @@ Generally you should just use `fieldset` for the instances above. Do not be temp
 If you are only asking one question on the page you should try and combine the `h1` with the question’s `label` or `legend`. This means that people using screen readers do not hear the same copy repeated more than necessary.
 
 #### `legend + h1`
+
 With `legend`, the `h1` sits inside the `legend`:
 
     <legend><h1>Page title</h1></legend>

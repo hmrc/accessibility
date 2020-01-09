@@ -1,0 +1,20 @@
+{
+  "default": true,
+  "MD003": {
+    "style": "atx"
+  },
+  "MD013": false,
+  "MD024": {
+    "siblings_only": true
+  },
+  "MD031": false,
+  "MD032": false,
+  "MD033": {
+    "allowed_elements": [
+      "del",
+      "kbd",
+      "mark"
+    ]
+  },
+  "MD041": false
+}

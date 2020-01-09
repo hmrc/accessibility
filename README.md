@@ -1,3 +1,3 @@
 # Accessibility
 
-- [Check the accessibility of your service before you get a review](docs/check-your-services-accessibility-before-you-get-a-review.md)
+- [Check the accessibility of your service before you get an audit](docs/check-your-services-accessibility-before-you-get-an-audit.md)

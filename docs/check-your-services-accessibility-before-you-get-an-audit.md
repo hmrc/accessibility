@@ -25,25 +25,25 @@ Accessibility is a user need. You should be thinking about the access needs of y
 
 Build accessibility tasks into each sprint and include them in your workflow. Here are some examples that you can use.
 
-- [Definition of Ready](docs/definition-of-ready.md)
-- [Definition of Done](docs/definition-of-done.md)
+- [Definition of Ready](definition-of-ready.md)
+- [Definition of Done](definition-of-done.md)
 
 ## Accessibility quick wins
 
 ​Ideally you should test your service regularly in the accessibility lab, using a range of devices. This will get you a long way towards avoiding the most common accessibility failings.
 
-- [Accessibility quick wins](docs/accessibility-quick-wins.md)
+- [Accessibility quick wins](accessibility-quick-wins.md)
 
 ## Design and usability quick wins
 
 Avoid the most common GOV.UK Design System and usability issues that we see when auditing services.
 
-- [Design and usability quick wins](docs/design-and-usability-quick-wins.md)
+- [Design and usability quick wins](design-and-usability-quick-wins.md)
 
 ## Make use of automated helpers
 
 We recommend that you share the load between all team members so that everybody owns at least one accessibility task.
 
-- [Stage one: browser plugins](docs/stage-one--browser-plugins.md)
-- [Stage two: prototyping tools](docs/stage-two--prototyping-tools.md)
-- [Stage three: Continuous Integration tools](docs/stage-three--ci-tools.md)
+- [Stage one: browser plugins](stage-one--browser-plugins.md)
+- [Stage two: prototyping tools](stage-two--prototyping-tools.md)
+- [Stage three: Continuous Integration tools](stage-three--ci-tools.md)

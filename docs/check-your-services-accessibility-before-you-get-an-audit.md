@@ -17,7 +17,7 @@ Carrying out these checks will help you:
 - improve the accessibility of your service
 - save time by eliminating issues early
 - make sure it meets
- the [public sector accessibility regulations](https://confluence.tools.tax.service.gov.uk/display/DSA/Regulations+to+make+public+sector+websites+and+mobile+applications+accessible)
+ the [public sector accessibility regulations](regulations-to-make-public-sector-websites-and-mobile-applications-accessible.md)
 
 ## When should you consider accessibility
 

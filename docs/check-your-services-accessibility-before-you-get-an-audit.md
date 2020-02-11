@@ -19,6 +19,8 @@ Carrying out these checks will help you:
 - make sure it meets
  the [public sector accessibility regulations](regulations-to-make-public-sector-websites-and-mobile-applications-accessible.md)
 
+You can validate your HTML on a page-by-page basis using browser plugins. However, it is time consuming. We recommend that you automate your HTML validation as part of your CI build; see [Stage three: Continuous Integration tools](stage-three--ci-tools.md).
+
 ## When should you consider accessibility
 
 Accessibility is a user need. You should be thinking about the access needs of your users from the start of design, research and development. Do not leave it until the end.

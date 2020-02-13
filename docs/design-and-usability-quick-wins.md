@@ -14,7 +14,7 @@ If you are asking for particular types of information, using the correct `type` 
 
 Some input types are more accessible than others due to assistive technology support. For now we recommend looking at [`email`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email), [`number`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number), [`search`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search), [`tel`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel), [`url`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url)
 
-Avoid using `maxlength` as it will not announce to tell a user using assistive technology that there is a max length and prompt them to stop typing once maxlength has been reached. 
+Avoid using `maxlength` as it will not announce to tell a user using assistive technology that there is a max length and prompt them to stop typing once maxlength has been reached.
 
 ## Using `fieldset`  for radios, checkboxes and dates
 

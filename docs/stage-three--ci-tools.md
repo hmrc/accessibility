@@ -4,7 +4,7 @@ Once your service has been deployed to staging you’ll want to introduce some a
 
 ## `AccessibilityTestJobBuilder`
 
-This job builder captures and archives all HTML pages that your UI tests visit. These pages are then uploaded to a new sidecar container running alongside our Jenkins build slave, named `accessibility-assessment`, and assessed during a post build task. If you currently maintain a UI smoke test that visits each page of your frontend, then running that test suite with this job builder will generate an output for you to review in Kibana (screenshot below). 
+This job builder captures and archives all HTML pages that your UI tests visit. These pages are then uploaded to a new sidecar container running alongside our Jenkins build slave, named `accessibility-assessment`, and assessed during a post build task. If you currently maintain a UI smoke test that visits each page of your frontend, then running that test suite with this job builder will generate an output for you to review in Kibana (screenshot below).
 
 A link to this dashboard is available in the description of the job in Jenkins.
 

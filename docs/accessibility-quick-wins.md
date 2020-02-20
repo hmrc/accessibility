@@ -60,7 +60,7 @@ Read more about this at [How to Meet Parsing](https://www.w3.org/WAI/WCAG21/quic
 
 Screen readers can list all link text in a dialog to enable the user to quickly access links on a page. If more than one link has the same text as a link but point to different URLs this can be very confusing. This is easy to miss on pages where you have repeating content (such as add-to-a-list) or are reviewing answers. Generally the fix is to add additional hidden content to add context for screen readers.
 
-If the link has `target="_blank"` then the link text should inform the user that the link opens in a new window or tab so they know before clicking the link that they will be redirected to another page.
+If the link has `target="_blank"` then the link text should inform the user that the link opens in a new window or tab, so the user knows before clicking the link that they will be redirected to another window.
 
 Success criteria for [WCAG 2.1 (A) 2.4.4: Link Purpose](https://www.w3.org/WAI/WCAG21/Understanding/link-purpose-in-context.html).
 

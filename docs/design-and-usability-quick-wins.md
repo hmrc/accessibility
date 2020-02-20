@@ -14,6 +14,8 @@ If you are asking for particular types of information, using the correct `type` 
 
 Some input types are more accessible than others due to assistive technology support. For now we recommend looking at [`email`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/email), [`number`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number), [`search`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/search), [`tel`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel), [`url`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/url)
 
+Avoid using `maxlength` as it will not announce to tell a user using assistive technology that there is a max length and prompt them to stop typing once maxlength has been reached.
+
 ## Using `fieldset`  for radios, checkboxes and dates
 
 Generally you should just use `fieldset` for the instances above. Do not be tempted to use them for single checkboxes as it is a grouping element. When you use a `fieldset` make sure you also include an appropriate `legend` as the first element within.
@@ -61,6 +63,6 @@ Success criteria for [WCAG 2.0 (A) 1.3.1 Info and Relationships](https://www.w3.
 
 ## Using links as buttons
 
-If you have used links but added CSS classes to make them look like buttons, you should add a `role="button"` attribute to them and initialise the [JavaScript polyfill](https://github.com/alphagov/govuk-frontend/blob/master/src/govuk/components/button/button.js) to ensure they act like buttons. This makes sure that the link is announced as and behaves like a button and responds to the <kbd>spacebar</kbd> key press appropriately.
+If you have used links but added CSS classes to make them look like buttons, you should add a `role="button"` attribute to them and initialise the [JavaScript polyfill](https://github.com/alphagov/govuk-frontend/blob/master/src/govuk/components/button/button.js) to ensure they act like buttons. This makes sure that the link is announced as and behaves like a button and responds to the <kbd>spacebar</kbd> key press appropriately (given the it is initialised by running `GOVUK.shimLinksWithButtonRole.init();`).
 
 Success criteria for [WCAG 2.1 (A) 4.1.2 Name, role, value](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html).

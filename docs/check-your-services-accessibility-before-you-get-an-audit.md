@@ -2,7 +2,7 @@
 
 The accessibility of your service is your team’s responsibility.
 
-Before you have an in-house accessibility audit or a formal external audit by Digital Accessibility Centre (DAC), you should check the accessibility of your service.
+Before you have an accessibility audit, you should check the accessibility of your service.
 
 To help you we’ve listed some things you can check for throughout development.
 

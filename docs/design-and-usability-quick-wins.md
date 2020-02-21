@@ -63,6 +63,6 @@ Success criteria for [WCAG 2.0 (A) 1.3.1 Info and Relationships](https://www.w3.
 
 ## Using links as buttons
 
-If you have used links but added CSS classes to make them look like buttons, you should add a `role="button"` attribute to them and initialise the [JavaScript polyfill](https://github.com/alphagov/govuk-frontend/blob/master/src/govuk/components/button/button.js) to ensure they act like buttons. This makes sure that the link is announced as and behaves like a button and responds to the <kbd>spacebar</kbd> key press appropriately (given the it is initialised by running `GOVUK.shimLinksWithButtonRole.init();`).
+If you have used links but added CSS classes to make them look like buttons, you should add a `role="button"` attribute to them and initialise the [JavaScript polyfill](https://github.com/alphagov/govuk-frontend/blob/master/src/govuk/components/button/button.js) to ensure they act like buttons. This makes sure that the link is announced as and behaves like a button and responds to the <kbd>spacebar</kbd> key press appropriately (given that it is initialised by running `GOVUK.shimLinksWithButtonRole.init();`).
 
 Success criteria for [WCAG 2.1 (A) 4.1.2 Name, role, value](https://www.w3.org/TR/UNDERSTANDING-WCAG20/ensure-compat-rsv.html).

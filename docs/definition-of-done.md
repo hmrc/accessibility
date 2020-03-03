@@ -8,6 +8,20 @@ As an absolute bare minimum, we recommend following these three tasks:
 
 You should make sure these tasks are complete before you request an in-house audit. The best way to do this is to validate the HTML of each page. Use a tool like [axe](https://github.com/dequelabs/axe-core) or [Pa11y](https://github.com/pa11y/pa11y) to test for WCAG errors. Test some user journeys with a screen reader at the end of each sprint.
 
+## Configure anything configurable
+
+Always remember to check that you’ve configured everything.
+
+For example, in a service such as `address-lookup-frontend`, there is a default value for use as the home location:
+
+[`homeNavHref = "http://www.hmrc.gov.uk/"`](https://github.com/hmrc/address-lookup-frontend/blob/master/conf/application.conf#L64)
+
+In most cases, you should be redirecting users to the start page of your service. For example, you would change it to:
+
+`homeNavHref = "http://www.hmrc.gov.uk/service-name/start-page"`
+
+This returns the user to a more logical place within their journey. It is unlikely that users will have started their journey from the GOV.UK HMRC page.
+
 ## How you can test your service
 
 Most of this work can be done at your own desk. The assistive tech journeys are best done in the accessibility lab, if you have one in your Delivery Centre.

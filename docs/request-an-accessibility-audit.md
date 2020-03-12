@@ -6,7 +6,7 @@ Before you request an accessibility audit ensure you have implemented recommenda
 
 ## When to get an audit
 
-To meet [public sector accessibility regulations](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps) your service needs to pass an accessibility audit and publish an accessibility statement before it goes public.
+To meet [public sector accessibility regulations](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps) your service needs to pass an accessibility audit and [publish an accessibility statement](publish-an-accessibility-statement-before-your-service-goes-public.md) before it goes public.
 
 Once you have identified and fixed known accessibility issues, arrange to have an accessibility audit at least 4 weeks before your public beta assessment.
 

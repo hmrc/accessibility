@@ -6,7 +6,7 @@ Before you request an accessibility audit ensure you have implemented recommenda
 
 ## When to get an audit
 
-To meet public sector accessibility regulations your service needs to pass an accessibility audit and publish an accessibility statement before it goes public.
+To meet [public sector accessibility regulations](https://www.gov.uk/guidance/accessibility-requirements-for-public-sector-websites-and-apps) your service needs to pass an accessibility audit and publish an accessibility statement before it goes public.
 
 Once you have identified and fixed known accessibility issues, arrange to have an accessibility audit at least 4 weeks before your public beta assessment.
 
@@ -29,6 +29,6 @@ When you have completed the form send your request to <accessibility.team@hmrc.g
 
 This depends on the size of the service and the number of errors we discover for inclusion in your accessibility report.
 
-We aim to conduct a full WCAG 2.1 AA technical accessibility audit and test with commonly used assistive technology within 5 working days. The fewer issues your service has, the quicker we can produce a report.
+We aim to conduct a full WCAG 2.1 AA technical accessibility audit and test with [commonly used assistive technology](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies) within 5 working days. The fewer issues your service has, the quicker we can produce a report.
 
 Email <accessibility.team@hmrc.gov.uk> if you have any additional questions, or start a discussion with us on our [GitHub team page](https://github.com/orgs/hmrc/teams/disc).

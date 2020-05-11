@@ -6,7 +6,7 @@ Fully licensed installs are available to use on the HMRC accessibility lab lapto
 Dragon installed.
 
 ## Testing notes
-None
+Use IE11 and Chrome
 
 ## What to look for
 Perform [common voice-to-text checks](common/voice.md)

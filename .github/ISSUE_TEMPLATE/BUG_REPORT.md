@@ -1,9 +1,8 @@
 ---
 name: "\U0001F41B Report a bug or issue"
 about: "Report any bugs or issues you have come across, so that we can fix it."
-title: "[DATE]: [FEATURE NAME]"
-labels:
-assignees: philsherry
+title: "[DATE]: [BUG DESCRIPTION]"
+labels: bug
 ---
 
 ## Bug Report
@@ -54,4 +53,5 @@ Include the following as a minimum e.g.
 #### Expected
 
 #### Actual
+-->
 -->

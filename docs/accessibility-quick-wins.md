@@ -17,6 +17,9 @@ Rather than using `select` inputs for long lists, consider using the latest vers
 ### Make sure you initialise any details components
 
 The [details component](https://design-system.service.gov.uk/components/details/) is a native browser control, but is not supported in some older browsers (most notably IE 11) and some assistive technology (JAWS) without the use of a [polyfill](https://github.com/hmrc/assets-frontend/blob/master/assets/javascripts/modules/details.polyfill.js).
+If this is not done older browsers have it open by default (and it cannot be closed). This means that
+- the link to action it is present but does nothing, which is confusing
+- a screen-reader user cannot easily by-pass the content of the component (which is one of the reasons why you would use this component)
 
 You can initialise the component by adding the following code in your JavaScript.
 

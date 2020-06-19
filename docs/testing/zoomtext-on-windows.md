@@ -9,6 +9,7 @@ Use the default settings. ZoomText has a lot of options and it is best to leave 
 
 ## Testing notes
 Use with Chrome, Firefox or IE11
+Note - performs better with Firefox when using the text-to-voice reader (for example, with AF style radios, the voice does not read out labels in Chrome, but does in Firefox).
 
 ## What to look for
 Perform the [common screen magnification tests](common/screen-magnification.md)

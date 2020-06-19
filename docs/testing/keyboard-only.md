@@ -2,6 +2,7 @@
 
 ## System set-up
 For Mac check system settings for enabling tabbing
+
 System Preferences > Keyboard > Shortcuts > check “Use keyboard navigation to move focus between controls”
 
 ## Testing notes

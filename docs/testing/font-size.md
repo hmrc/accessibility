@@ -5,15 +5,19 @@ Font-size-only zoom is important to check as it is a modification which is easy 
 
 ### Desktop
 The browser matters less than testing the font size increase on both the mobile and desktop layouts, so this test can be done on any desktop OS. We want to test with font size set to 200%.
+
 To do this in Chrome, go to http://chrome://settings/fonts
+
 Increase the default font size from 16px to 32px.
 
 ### Mobile Android
 In Chrome go to Settings > Accessibility > Text scaling
+
 Increase the size to 200%
 
 ### Mobile iOS
 Settings > Accessibility > Display & Text Size
+
 These are the settings we will be testing with:
 - Bold Text
 - Larger Text

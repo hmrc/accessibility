@@ -8,6 +8,7 @@ Settings > Ease of Access > Magnifier
 
 ### Mac OS
 System Preferences > Accessibility > Zoom
+
 Enable the keyboard shortcuts to zoom so you can use Alt + Cmd + 8 to enable / disable zoom
 
 ### iOS

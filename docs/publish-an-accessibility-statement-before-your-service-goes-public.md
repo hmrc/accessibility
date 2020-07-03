@@ -1,4 +1,4 @@
-# Publish an accessibility statement before your service goes public
+# Publish an accessibility statement before your service goes into public beta
 
 This page gives advice about creating an accessibility statement, and how to implement an accessibility feedback form.
 
@@ -71,11 +71,6 @@ The `service` parameter is how your service is known e.g. `pta`.
 
 The `userAction` parameter is the page where the accessibility statement link was clicked e.g. `/personal-account/personal-details` so the link in your accessibility statement should be something like <https://www.tax.service.gov.uk/contact/accessibility?service=pta&userAction=%2Fpersonal-account%2Fpersonal-details>
 
-### Remove your temporary email account
-
-If you’ve already published your accessibility statement for your service in order to meet the 23 September 2019 deadline you may have set up an email address as a temporary solution to enable problems to be reported while the Deskpro form was being developed.
-
-When you amend your accessibility statement and link to the Deskpro form you must deactivate the email address.
 
 ## Contact us
 

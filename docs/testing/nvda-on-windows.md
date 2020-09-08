@@ -6,6 +6,7 @@ Install NVDA
 
 ## Testing notes
 Use with Firefox
+
 Due to the recent increased support and uptake of Chrome with NVDA, it is also worth testing with this browser too.
 
 ## What to look for

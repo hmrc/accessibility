@@ -21,7 +21,7 @@ You’ll be asked to provide:
 - GitHub details (if applicable)
 - Description of the service
 - When the service is due to go into public beta
-- Details to access the service
+- Details to access the service (we will need to access each journey up to 20 times so please supply enough credentials to allow this)
 - User journeys that need testing
 - Copy of your private beta RAD report
 

@@ -30,7 +30,7 @@ https://github.com/hmrc/accessibility-statement-frontend#to-add-your-services-ac
 
 To help you create your statement new templates have been created. 
 
-# External service 
+### External service 
 
 New templates have been produced to help create statement content. This will avoid confusion between what content is part of the accessibility statement service and what service teams have to provide. 
 
@@ -44,7 +44,7 @@ These templates replace the previous Herokuapp templates.
 
 [Non-compliant statement](https://docs.google.com/document/d/1TyGLhG29Zw18fTlDIYbQJKWaavjLVjkqRDLl_dqmwfI/edit?usp=sharing) 
 
-# Internal service
+### Internal service
 
 ou should continue to use the Herokuapp templates.
 

@@ -1,77 +1,129 @@
 # Publish an accessibility statement before your service goes into public beta
 
-This page gives advice about creating an accessibility statement, and how to implement an accessibility feedback form.
+To comply with [public sector accessibility regulations](https://confluence.tools.tax.service.gov.uk/display/DISC/Regulations+to+make+public+sector+websites+and+mobile+applications+accessible) your service (this includes websites and mobile applications) must meet Web Content Accessibility Guidelines (WCAG) 2.1 AA standards and publish an accessibility statement before going into public beta. 
 
-To comply with [public sector accessibility regulations](regulations-to-make-public-sector-websites-and-mobile-applications-accessible.md) your service must meet WCAG 2.1 AA standards and include an accessibility statement before going into public beta.
+A new accessibility statement service is now available in GitHub for creating and publishing your accessibility statements (www.github.com/hmrc/accessibility-statement-frontend). You do not need any coding experience, you just need to be familiar with GitHub as it involves creating YAML files and using pull requests as part of the process. 
 
-On this page you will find accessibility statement templates, details of where to link to your statement, and a Deskpro form to enable users to ‘report an accessibility problem’.
+This new service replaces the current Herokuapp templates for external services only. For internal facing services you must continue to use the Herokuapp templates.
 
-## Accessibility statement templates
+## About the new accessibility statement service 
 
-To ensure HMRC accessibility statements are consistent, we have developed templates for you to use. Each accessibility statement contains fixed text that must appear and information that is specific to the service, website or app.
+The accessibility statement service is a centralised set of templates that contain all the ‘legal’ wording needed for each of the different types of the statement; fully compliant statement; partially compliant statement and non-compliant statement. The templates are available in English and Welsh. This text has been set by GDS who are the regulatory body and it cannot be changed. Service teams now need to only focus on content specific to their service. 
 
-There are two accessibility statement templates currently available.
+The benefit of having centrally held templates:
 
-Compliant statement - to be used when there are no accessibility issues identified and it meets WCAG 2.1 AA.
+- They can be updated centrally when changes are needed, rather than individually. This will save time and resource, and will ensure the latest wording is always used. It also keeps maintenance overheads to a minimum.
+- Statements will be held in a central public repository for all to see and will provide data to report compliance activity on accessibility issues and fix dates. The open repository also provides wider view access to stakeholders such as GDS without the need for GG access for auditing purposes. 
+- Allows everyone to see all our published statements creating a resource to help others complete their statements. It is a further step to help us build consistency.
 
-Partially compliant statement - to be used when it does not meet WCAG2.1 AA. For each WCAG guideline that it does not meet you’ll need to specify the accessibility problem, the WCAG 2.1 AA success criteria the problem fails on, and when you plan to fix it.
+## Accessing the accessibility statement service 
 
-There is a Welsh language version of each template but you will need to get translations of the information that is specific to your service, website or app.  To get Welsh translations email <translations.welshlanguage@hmrc.gov.uk>
+You must have a [GitHub account linked to the HMRC organisation](https://confluence.tools.tax.service.gov.uk/display/DTRG/HMRC+on+GitHub).  
 
-### How to access the templates
+To access the service front-end use this link: https://github.com/hmrc/accessibility-statement-frontend
 
-You can access the accessibility statement templates at [accessibility-statement.herokuapp.com](https://accessibility-statement.herokuapp.com/)
+Guidance on how to use the service: 
 
-- User name: `accessibilitystatement`
-- Password: `hmrca11ystatement`
+https://github.com/hmrc/accessibility-statement-frontend#to-add-your-services-accessibility-statement
 
-### Information required that is specific to your service, website or app
+## Creating your statement
 
-You’ll need to add the following details to the statement.
+To help you create your statement new templates have been created. 
 
-- Name of your service
-- Sub domain name (if your service has one)
-- A description of what your service does (single paragraph)
-- Any additional information a disabled user may need to act on if there are parts of your service some people may find difficult to use
-- How to directly contact your service by phone or email if users need support
-- The dates you tested your service, when the statement was last updated, and link to your most recent accessibility audit if you have one
+# External service 
 
-If your service is partially compliant you’ll also need to list the accessibility problems, and for each problems state
+New templates have been produced to help create statement content. This will avoid confusion between what content is part of the accessibility statement service and what service teams have to provide. 
 
-- which of the WCAG 2.1 AA success criteria the problem fails on. You’ll be able to get this from your DAC audit report
-- when you plan to fix the problem
+These templates replace the previous Herokuapp templates. 
 
-You must only change or remove text that appears in square brackets within the template statement. Don’t change anything else because the content needs to closely mirror the [GDS sample accessibility page](https://www.gov.uk/service-manual/helping-people-to-use-your-service/publishing-information-about-your-services-accessibility) and we want to have consistency across the statements we publish in HMRC.
+[Fully compliant statement](https://docs.google.com/document/d/1ooO9o1Awc8xEsSTcijGncHgKPm0nhWiX0y0qiFR_cls/edit?usp=sharing) 
 
-## How to create a link to your accessibility statement
+[Partially compliant statement - audit taken place](https://docs.google.com/document/d/1UZUTlsjypuZCtq6BP41kv_hW5l8WYg_a3J95TrsZhhs/edit?usp=sharing)
 
-Users will access the accessibility statement from a link in the footer within your service.
+[Partially compliant statement - automated tool testing](https://docs.google.com/document/d/1mGda0ERoUSGWfm5qzaQxKCdvkOo75CnOtsT6jGuMZ4o/edit?usp=sharing)  
 
-You can show the accessibility link in your service by passing the url of your accessibility statement to your template provider (`govuk-template` or `play-ui` in most cases). There is an optional link that will show up when you pass the url to it. This is either in `govuk-template.mustache.html` for TAAS/Frontend Template Provider or `FooterLinks.scala.html` for Play-ui.
+[Non-compliant statement](https://docs.google.com/document/d/1TyGLhG29Zw18fTlDIYbQJKWaavjLVjkqRDLl_dqmwfI/edit?usp=sharing) 
 
-The link to the accessibility statement should **open in the same window or tab**.
+# Internal service
 
-## Implementing the ‘report an accessibility problem’ Deskpro form
+ou should continue to use the Herokuapp templates.
 
-To enable users to report accessibility problems with your GOV.UK service, a Deskpro form has been created in the contact-frontend service specifically for the accessibility statement.
+They can be accessed at: https://accessibility-statement.herokuapp.com/
 
-Once you have set up your accessibility statement to use the Deskpro form you must contact <shashi.patel@hmrc.gov.uk> to say that the accessibility statement for your service is using it.  This will ensure they are ready for anything that may be submitted and know how to deal with it.
+User name: accessibilitystatement
+Password: hmrca11ystatement
+Only text in the square brackets within the statement templates can be changed. Do not change any other wording. 
 
-The link to the Deskpro form should **open in a new window or tab**.
+The format of the URL for the statement should be: https://www.tax.service.gov.uk/accessibility-statement/service-name
 
-### Technical advice
+## Linking the accessibility statement to your service 
 
-In your accessibility statement under the heading 'Reporting accessibility problems with this service' code the text 'accessibility problem (opens in the same window)' as a link.  Please make sure the link opens in a new window or tab.
+Your accessibility statement must appear in the footer of your service and be accessed through a link that says ‘Accessibility statement’. 
 
-The form is in the QA environment at [qa.tax.service.gov.uk/contact/accessibility](https://www.qa.tax.service.gov.uk/contact/accessibility)
+## Welsh language
 
-There are a few optional query parameters that should be used, one to help Deskpro identify your service, and one to identify exactly where in your service the accessibility statement was clicked. The query parameters are named `service` and `userAction`.
+The statement service has Welsh templates built into the service for the legal text of the statement. Service teams will need to arrange for the translation of the service-specific content and a final QA of the complete statement before publishing. 
 
-The `service` parameter is how your service is known e.g. `pta`.
+ **Note**: for statements for the 23 September 2020 accessibility regulations deadline it has been agreed with the Welsh Language Unit that the final QA check can be done after the deadline. 
 
-The `userAction` parameter is the page where the accessibility statement link was clicked e.g. `/personal-account/personal-details` so the link in your accessibility statement should be something like <https://www.tax.service.gov.uk/contact/accessibility?service=pta&userAction=%2Fpersonal-account%2Fpersonal-details>
+To arrange a translation, email: [translations.welshlanguage@hmrc.gov.uk](translations.welshlanguage@hmrc.gov.uk) 
 
+An internal facing service does not need to publish a Welsh language version of an accessibility statement.
+
+## Deskpro and reporting an accessibility problem
+
+To enable users to report accessibility problems with your service, a Deskpro form has been created in the contact-frontend service specifically for the accessibility statement. This has been built into the statement service and is configured via the YAML file per service. Please read the README documentation in Github.
+
+Once you have published the statement you must contact the DeskPro team to arrange routing of any tickets raised by users. 
+
+To do this you must contact Shashi Patel (shashi.patel@hmrc.gov.uk) and provide: 
+
+- name of the service
+- top level URL of the service
+- name and HMRC address of who will be responsible for handling the responses. This is usually the same person who already handles DeskPro tickets for the service. Generally this is the DSM or members of their Service Analyst team. 
+
+## Help and support to use the service
+
+There is a dedicated Slack channel for the service: #event-accessibility-statements
+
+This is monitored by the PlatUI developers of the service. You should use this route for any questions or issues about the service. 
+
+## Practical surgeries to support introducing the service 
+
+To help introduce the service the PlatUI team are running practical surgeries to walk teams through the process of creating a statement. The aim is to have a created statement in the service by the end of the session. 
+
+**Note**: Teams must come along with statement content ready to be used in the session. 
+
+These sessions are being run twice a week. The hangout link is posted in the service Slack channel on the morning of the event. Please check there for more details. 
+
+Thursday 17 September - 2:00pm- 4:00pm
+
+Monday 21 September - 2:00pm - 4:00pm
+
+Monday 28 September 2:00pm -4:00pm
+
+Thursday 1 October 2:00pm- 4:00pm
+
+## If you have already published an accessibility statement
+
+Statements published under the old process need to be migrated to the new service.
+
+Ideally this needs to be done as soon as possible after the 23rd September 2020 accessibility deadline. But we know there are other priorities and work to consider.  
+
+If you have an upcoming audit or retest and your statement needs updating as a result, then you must use the statement service as part of that work.
+
+If you do not have an accessibility audit or re-rest in the immediate future and the fix dates on your statement are correct then please contact [gaynor.harvey@hmrc.gov.uk](gaynor.harvey@hmrc.gov.uk) to talk about migrating your existing statement. 
+
+## Reviewing and monitoring statement compliance 
+
+Under the [public sector accessibility regulations](https://confluence.tools.tax.service.gov.uk/display/DISC/Regulations+to+make+public+sector+websites+and+mobile+applications+accessible) all accessibility statements **must** be reviewed every 12 months. 
+
+The [Digital Inclusion, Standards and Culture (DISC)](https://confluence.tools.tax.service.gov.uk/display/DISC/Digital+Inclusion%2C+Standards+and+Culture) team will now be monitoring the compliance of accessibility issues listed on statements including fix dates and accuracy to audit (and retest) reports. This will be done using data from the statement service. 
+
+There will also be regular reporting within CDIO and to wider stakeholders about where we are in terms of compliance as a department. 
+
+This is in addition to any reviewing and reporting that GDS may do as the accessibility regulatory body. 
 
 ## Contact us
 
-If you have any questions or need further support, please email us at accessibility.team@hmrc.gov.uk
+If you have any questions or need further support, please email us at [accessibility.team@hmrc.gov.uk](accessibility.team@hmrc.gov.uk) 

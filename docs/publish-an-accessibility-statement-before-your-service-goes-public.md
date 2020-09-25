@@ -4,7 +4,7 @@ To comply with [public sector accessibility regulations](https://confluence.tool
 
 A new accessibility statement service is now available in GitHub for creating and publishing your accessibility statements. You do not need any coding experience, you just need to be familiar with GitHub as it involves creating YAML files and using pull requests as part of the process. 
 
-This new service replaces the current Herokuapp templates for external services only.
+This new service replaces the current Herokuapp templates for external services.
 
 ## About the new accessibility statement service 
 

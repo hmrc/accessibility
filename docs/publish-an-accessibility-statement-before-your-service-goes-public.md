@@ -48,20 +48,12 @@ These templates replace the previous Herokuapp versions. They will show the sect
 
 There are example statements in the service for you to see what one looks like: 
 
-[Discounted Ice creams - fully compliant](https://www.qa.tax.service.gov.uk/accessibility-statement/example-fully-compliant)
-[Discounted Cupcakes - partially compliant - audit taken place](https://www.qa.tax.service.gov.uk/accessibility-statement/example-partially-compliant)
-[Discounted Shortbread - partially compliant - automated tool testing](https://www.qa.tax.service.gov.uk/accessibility-statement/example-automated-testing-only)
-[Discounted Doughnuts - non-compliant](https://www.qa.tax.service.gov.uk/accessibility-statement/example-non-compliant)
+- [Discounted Ice creams - fully compliant](https://www.qa.tax.service.gov.uk/accessibility-statement/example-fully-compliant)
+- [Discounted Cupcakes - partially compliant - audit taken place](https://www.qa.tax.service.gov.uk/accessibility-statement/example-partially-compliant)
+- [Discounted Shortbread - partially compliant - automated tool testing](https://www.qa.tax.service.gov.uk/accessibility-statement/example-automated-testing-only)
+- [Discounted Doughnuts - non-compliant](https://www.qa.tax.service.gov.uk/accessibility-statement/example-non-compliant)
  
 You can also look at other published statements in the service. 
-
-## Welsh language
-
-The statement service has Welsh templates built into the service for the legal text of the statement. Service teams will need to arrange for the translation of the service-specific content and a final QA of the complete statement before publishing. 
-
-**Note:** for statements for the 23 September 2020 accessibility regulations deadline it has been agreed with the Welsh Language Unit that the final QA check can be done after the deadline. 
-
-To arrange a translation, email: [translations.welshlanguage@hmrc.gov.uk](translations.welshlanguage@hmrc.gov.uk) 
 
 ## Welsh language
 

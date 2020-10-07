@@ -85,25 +85,6 @@ To do this you **must** contact [Shashi Patel](shashi.patel@hmrc.gov.uk) and pro
 - top level URL of the service
 - name and HMRC address of who will be responsible for handling the responses. This is usually the same person who already handles DeskPro tickets for the service. Generally this is the DSM or members of their Service Analyst team. 
 
-## Practical surgeries to support introducing the service 
-
-To help introduce the service the PlatUI team are running practical surgeries to walk teams through the process of creating a statement. The aim is to have a created statement in the service by the end of the session. 
-
-Content of the surgeries will include: 
-- run Pull Request builder (catch and correct any YAML parsing errors)
-- merge PR and rebuild service
-- view content upload in QA environment
-- volunteers willing to takepart and create statement in surgery with PlatUI support
-- Q&A’s throughout 
-
-**Note:** Teams must come along with statement content to  use in the session. 
-
-Sessions are  run twice a week. The hangout link is posted in the service Slack channel on the morning of the event. Please check there for more details. 
-
-Monday 28 September 2:00pm - 4:00pm
-Thursday 1 October 2:00pm- 4:00pm
-
-
 ## If you have already published an accessibility statement
 
 Statements published under the old process need to be migrated to the new service.

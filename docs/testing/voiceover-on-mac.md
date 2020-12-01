@@ -19,5 +19,8 @@ The DIAS team have produced [a step-by-step guide to getting started with using 
 Username: hmrc
 Password: a11y
 
+Username: hmrc
+Password: a11y
+
 ## What to look for
 Perform [common screen-reader checks](common/screen-readers.md)

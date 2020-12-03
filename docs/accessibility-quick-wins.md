@@ -45,7 +45,6 @@ Make sure you have added the js initialisation to give error summaries focus on 
 
      window.GOVUKFrontend.initAll();
 
-
 Success criteria for [WCAG 2.1 (A) 2.4.1: Bypass Blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html).
 
 ### Error messages

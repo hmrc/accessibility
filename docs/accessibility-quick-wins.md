@@ -21,13 +21,9 @@ If this is not done older browsers have it open by default (and it cannot be clo
 - the link to action it is present but does nothing, which is confusing
 - a screen-reader user cannot easily by-pass the content of the component (which is one of the reasons why you would use this component)
 
-You can initialise the component by adding the following code in your JavaScript.
+You can initialise all of the components in one go.
 
-    GOVUK.details.init();
-
-Better still, you can initialise all of the components in one go.
-
-     GOVUK.initAll();
+     window.GOVUKFrontend.initAll();
 
 ### Avoid using tabs
 

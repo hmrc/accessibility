@@ -34,6 +34,7 @@ As a bare minimun we suggest you perform the generic tasks along with at least o
 
 ### Android
 - [TalkBack on Android](testing/talkback-on-android.md)
+- [High contrast on Android](testing/high-contrast-on-android.md)
 
 ## Common testing methods
 There are certain things which you will want to look for regardless of which assistive technology you are using - there are certain aspects which are common to all screen-reader technology for example. These general principles are covered in this section.

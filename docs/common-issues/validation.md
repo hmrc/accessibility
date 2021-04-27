@@ -1,6 +1,6 @@
 # Issue: Validation [draft]
 
-When validating data, spaces and upper/lower-casing should be permitted as long as it does not change the meaning of the data.
+When validating data, spaces and upper/lower-casing should be permitted as long as it does not change the meaning of the data. This applies even if a format is indicated in hint copy.
 
 The user may be copying & pasting from another source which has different formatting.
 

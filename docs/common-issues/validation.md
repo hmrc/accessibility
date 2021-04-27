@@ -1,4 +1,4 @@
-# Issue: Validation
+# Issue: Validation [draft]
 
 When validating data, spaces and upper/lower-casing should be permitted as long as it does not change the meaning of the data.
 

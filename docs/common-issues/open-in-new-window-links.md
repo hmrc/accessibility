@@ -22,9 +22,9 @@ Add ‘opens in new tab’ as part of the visible link which opens in the new ta
 
 ## Report
 
-| Priority | Issue                                                      |
-| -------- | ---------------------------------------------------------- |
-| 🔴 (H)    | [#issue](): Missing ‘opens in new tab’ as part of the link |
+| Priority | Issue |
+| -------- | ----- |
+| 🔴 (H)   | [#issue](): Missing ‘opens in new tab’ as part of the link |
 
 ## References
 

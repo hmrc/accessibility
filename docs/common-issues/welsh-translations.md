@@ -26,7 +26,7 @@ However it is possible to send an override skip link to the @skipLinkBlock code 
 
 | Status | Level | Issue | Success Criterion |
 | ------ | ----- | ----- | ----------------- |
-| 🟠 (M) | AA    | #[issue]: Content not translated to Welsh | 3.1.2 Language of parts |
+| 🟠 (M) | AA    | [#issue](): Content not translated to Welsh | 3.1.2 Language of parts |
 
 ## References
 

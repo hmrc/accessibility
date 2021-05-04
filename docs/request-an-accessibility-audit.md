@@ -12,7 +12,7 @@ Once you have identified and fixed known accessibility issues, arrange to have a
 
 ## How to request an audit
 
-Complete an [accessibility audit request form](https://github.com/hmrc/accessibility/blob/master/docs/hmrc-accessibility-audit-request.docx?raw=true) (Word document, 30k).
+Complete an [accessibility audit request form (Word document, 30k)](https://github.com/hmrc/accessibility/blob/master/docs/hmrc-accessibility-audit-request.docx?raw=true).
 
 You’ll be asked to provide:
 

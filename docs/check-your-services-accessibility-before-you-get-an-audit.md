@@ -1,6 +1,6 @@
 # Check the accessibility of your service before you get an audit
 
-The accessibility of your service is your team’s responsibility.
+**The accessibility of your service is your team’s responsibility.**
 
 Before you [request an accessibility audit](https://github.com/hmrc/accessibility/blob/master/docs/request-an-accessibility-audit.md), you should check the accessibility of your service.
 
@@ -12,14 +12,14 @@ As an absolute bare minimum, we recommend following these three tasks:
 2. Make sure each page is free from WCAG errors.
 3. Test each page with a screen reader.
 
-Carrying out these checks will help you:
+You should complete these tasks before you request an in-house audit, fixing any errors that may arise. Carrying out these checks will help you:
 
 - improve the accessibility of your service
 - save time by eliminating issues early
 - make sure it meets
  the [public sector accessibility regulations](regulations-to-make-public-sector-websites-and-mobile-applications-accessible.md)
 
-You can validate your HTML on a page-by-page basis using browser plugins. However, it is time consuming. We recommend that you automate your HTML validation as part of your CI build; see [Stage three: Continuous Integration tools](stage-three--ci-tools.md).
+You can validate your HTML on a page-by-page basis using browser plugins. However, it is time consuming. We recommend that you automate your HTML validation as part of your (HMRC-only) CI build; see [Stage three: Continuous Integration tools](stage-three--ci-tools.md).
 
 ## When should you consider accessibility
 

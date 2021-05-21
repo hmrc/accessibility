@@ -83,7 +83,7 @@ To do this you **must** contact [Shashi Patel](shashi.patel@hmrc.gov.uk) and pro
 
 - name of the service
 - top level URL of the service
-- name and HMRC address of who will be responsible for handling the responses. This is usually the same person who already handles DeskPro tickets for the service. Generally this is the DSM or members of their Service Analyst team.
+- name and HMRC address of who will be responsible for handling the responses. This is usually the same person who already handles DeskPro tickets for the service. Generally this is the DSM or members of their Service Analyst team. 
 
 ## If you have already published an accessibility statement
 

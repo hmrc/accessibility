@@ -21,13 +21,9 @@ If this is not done older browsers have it open by default (and it cannot be clo
 - the link to action it is present but does nothing, which is confusing
 - a screen-reader user cannot easily by-pass the content of the component (which is one of the reasons why you would use this component)
 
-You can initialise the component by adding the following code in your JavaScript.
+Make sure you have added the js initialisation to help browsers which don't support this natively:
 
-    GOVUK.details.init();
-
-Better still, you can initialise all of the components in one go.
-
-     GOVUK.initAll();
+     window.GOVUKFrontend.initAll();
 
 ### Avoid using tabs
 
@@ -44,6 +40,11 @@ Success criteria for [WCAG 2.1 (A) 2.2.1: Timing Adjustable](https://www.w3.org/
 ### Error summary and links
 
 Error summaries should receive focus when the page loads, to bring the error to the attention of people using assistive technology and also help people who are only using a keyboard. Additionally, when clicking a link in the error summary the focus should be placed in either the input (in the case of text inputs) or on the first input in a group (for radios, checkboxes and date inputs).
+
+Make sure you have added the js initialisation to give error summaries focus on page load:
+
+     window.GOVUKFrontend.initAll();
+
 
 Success criteria for [WCAG 2.1 (A) 2.4.1: Bypass Blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html).
 

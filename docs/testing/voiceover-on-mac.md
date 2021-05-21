@@ -16,5 +16,8 @@ Activate the rotor and ensure that all items you expect to be in the various cat
 ## How to use guide
 The DISC team have produced [a step-by-step guide to getting started with using Voiceover on Mac](https://accessibility-training.herokuapp.com/voiceover/).
 
+Username: hmrc
+Password: a11y
+
 ## What to look for
 Perform [common screen-reader checks](common/screen-readers.md)

@@ -2,7 +2,7 @@
 
 **The accessibility of your service is your team’s responsibility.**
 
-Before you [request an accessibility audit](request-an-accessibility-audit.md), you should check the accessibility of your service. To help you we’ve listed some things you can check for throughout development.
+Before you [request an accessibility audit](https://github.com/hmrc/accessibility/blob/master/docs/request-an-accessibility-audit.md), you should check the accessibility of your service.
 
 As an absolute bare minimum, we strongly suggest following these three tasks:
 

@@ -13,6 +13,11 @@ Avoid changing any settings beyond the modifier keys. Because users can modify t
 ## Testing notes
 Using IE11 and Chrome.
 
+## How to use guide
+The DISC team have produced [a step-by-step guide to getting started with using JAWS](https://accessibility-training.herokuapp.com/jaws/).
+Username: hmrc
+Password: a11y
+
 ## What to look for
 Perform [common screen-reader checks](common/screen-readers.md).
 

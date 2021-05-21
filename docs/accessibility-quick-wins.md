@@ -23,7 +23,7 @@ If this is not done older browsers have it open by default (and it cannot be clo
 
 Make sure you have added the js initialisation to help browsers which don't support this natively:
 
-     window.GOVUKFrontend.initAll();
+    window.GOVUKFrontend.initAll();
 
 ### Avoid using tabs
 
@@ -43,7 +43,7 @@ Error summaries should receive focus when the page loads, to bring the error to 
 
 Make sure you have added the js initialisation to give error summaries focus on page load:
 
-     window.GOVUKFrontend.initAll();
+    window.GOVUKFrontend.initAll();
 
 Success criteria for [WCAG 2.1 (A) 2.4.1: Bypass Blocks](https://www.w3.org/WAI/WCAG21/Understanding/bypass-blocks.html).
 

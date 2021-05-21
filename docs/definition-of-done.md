@@ -30,9 +30,9 @@ You will also need to configure your accessibility statement.
 
 ## How you can test your service
 
-Most of this work can be done at your own desk. The assistive tech journeys are best done in the accessibility lab, if you have one in your Delivery Centre.
-
-See also: [Testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies).
+Most of this work can be done at your own desk. The assistive tech journeys are best done in the accessibility lab, if you have one in your Delivery Centre. See also:
+- [Testing with assistive technologies](https://www.gov.uk/service-manual/technology/testing-with-assistive-technologies)
+- [How to test for accessibility](https://github.com/hmrc/accessibility/blob/master/docs/how-to-test-for-accessibility.md)
 
 ## Basic checks
 

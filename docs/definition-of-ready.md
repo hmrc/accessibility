@@ -37,7 +37,7 @@ You can find the established patterns here:
 
 - write simple, easy to understand content that meets the [content style guide](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style)
 - reading order should make sense when there are differences between what is visible and what is read out loud
-- write page titles that are the same as the `h1` heading (but be aware of the [Personally identifiable information](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/#personally-identifiable-information) caveat)
+- write page titles that are the same as the `h1` heading (but be aware of the [personally identifiable information](https://design.tax.service.gov.uk/hmrc-design-patterns/page-title/#personally-identifiable-information) caveat)
 
 ### Visual design
 
@@ -45,14 +45,14 @@ You can find the established patterns here:
 - use non-breaking spaces and hyphens to stop unwanted word wrapping
 - your design must be mobile-friendly (remember a zoomed in desktop screen will effectively become a mobile viewport)
 - do not convey meaning by colour alone
-- there should reasonable distance between related elements, rather than remote from each other
+- there should be a visual relationship between related elements
 
 ### Design for assistive technology
 
 - add hidden context for screen readers, where necessary
 - notify screen readers when onscreen content or layout changes, using relevant ARIA roles
-- provide a warning when an action takes the user to a different tab or window
-- all form elements have accessible names
+- provide a warning when an action will take the user to a different tab or window
+- all interactive elements have accessible names
 - expose the correct elements to the element menu for that device (for example, the Rotor on VoiceOver, or the Elements menu on NVDA)
 - label landmarks with `aria-label` if there are more than one of each (for example, *“Site navigation”*, *“In-page navigation”*, *“Footer navigation”*)
 - accommodation for screen zoom and whether the screen still makes sense at +200%

@@ -33,4 +33,4 @@ We will normally carry out a pre-audit check of the service 2 weeks before your 
 
 On average  an accessibility audit takes around 5 working days to complete. This depends on the number of pages and user journeys we need to test and the number of accessibility issues we find.
 
-Email <accessibility.team@hmrc.gov.uk> if you have any additional questions, or start a discussion with us on our [GitHub team page](https://github.com/orgs/hmrc/teams/disc).
+Email <accessibility.team@hmrc.gov.uk> if you have any additional questions, or start a discussion with us on our [GitHub team page](https://github.com/orgs/hmrc/teams/dias).

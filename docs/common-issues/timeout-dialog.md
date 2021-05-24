@@ -6,7 +6,7 @@ People with disabilities such as blindness, low vision, dexterity impairments or
 
 ## To resolve:
 
-Implement the service timeout, follow the [timeout pattern](https://design.tax.service.gov.uk/hmrc-design-patterns/service-timeout/) 
+Implement the service timeout, follow the [service timeout pattern](https://design.tax.service.gov.uk/hmrc-design-patterns/service-timeout/).
 
 ## Labels
 
@@ -23,6 +23,7 @@ Implement the service timeout, follow the [timeout pattern](https://design.tax.s
 
 
 ## References
-[Service hmrc timeout pattern](https://design.tax.service.gov.uk/hmrc-design-patterns/service-timeout/) 
+[Service timeout pattern](https://design.tax.service.gov.uk/hmrc-design-patterns/service-timeout/) 
+
 [Understanding Success Criterion 2.2.1: Timing Adjustable](https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable)
 

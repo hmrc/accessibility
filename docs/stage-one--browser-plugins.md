@@ -48,5 +48,5 @@ Available for [Chrome](https://chrome.google.com/webstore/detail/toggle-javascri
 
 > "Automated pattern and accessibility checks for government services. Provides guidance and indicates potential improvements for services using the Gov UK and HMRC design patterns."
 
-Available for [Chrome](https://chrome.google.com/webstore/detail/pattern-checker/amjjliajblignodfdjalnfkekkeflkph?hl=en-GB&authuser=0)
+Available for [Chrome](https://chrome.google.com/webstore/detail/pattern-checker/amjjliajblignodfdjalnfkekkeflkph?hl=en-GB&authuser=0).
 

@@ -43,3 +43,11 @@ Available for [Chrome](https://chrome.google.com/webstore/detail/webhint/gccemnp
 ## Easily disable JavaScript
 
 Available for [Chrome](https://chrome.google.com/webstore/detail/toggle-javascript/cidlcjdalomndpeagkjpnefhljffbnlo) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/quick-js-switcher/?src=search)
+
+## Pattern checker
+
+> Automated pattern and accessibility checks for government services
+> Provides guidance and indicates potential improvements for services using the Gov UK and HMRC design patterns.
+
+Available for [Chrome](https://chrome.google.com/webstore/detail/pattern-checker/amjjliajblignodfdjalnfkekkeflkph?hl=en-GB&authuser=0)
+

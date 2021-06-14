@@ -21,6 +21,15 @@ Implement the service timeout, follow the [service timeout pattern](https://desi
 | ------ | ----- | ----- | ----------------- |
 | 🔴 (H) | A    | [#issue](): No timeout dialog | 2.2.1 Timing Adjustable |
 
+## Statement
+
+### Accessibility problems
+
+there is no timeout dialog box in this service, so users will not be warned before being logged out
+
+### Milestones
+
+a timeout occurs without prior warning that a timeout may occur. This means that users will not realise they have to complete a task within a time limit. This fails WCAG 2.1 success criterion 2.2.1 (Timing Adjustable)
 
 ## References
 [Service timeout pattern](https://design.tax.service.gov.uk/hmrc-design-patterns/service-timeout/) 

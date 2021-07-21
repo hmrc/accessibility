@@ -26,7 +26,7 @@ Implement the service timeout, follow the [service timeout pattern](https://desi
 ### Accessibility problems
 
 ```
-users are not be warned before being logged out when their session ends
+users are not being warned before being logged out when their session ends
 ```
 
 ### Milestones

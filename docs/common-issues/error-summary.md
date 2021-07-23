@@ -33,15 +33,62 @@ The user has to look through the whole page to try and indentify all the issues 
 #### How to test
 
 
-2. Links within the error summary either do not work or link to the wrong destination
-3. Page title not prefixed with 'Error'
-4. Incorrect styling
-5. Message text
+### 2. Links within the error summary either do not work or link to the wrong destination
 
-## How to test
+#### Cause
 
-Submit a page without entering any information.
+A validation error occurs and the page is displayed again but the error summary is not present 
 
-## Related issue
+#### Impact
+
+The user has to look through the whole page to try and indentify all the issues to be corrected.
+
+#### Solution
+
+#### How to test
+
+### 3. Page title not prefixed with 'Error'
+
+#### Cause
+
+A validation error occurs and the page is displayed again but the error summary is not present 
+
+#### Impact
+
+The user has to look through the whole page to try and indentify all the issues to be corrected.
+
+#### Solution
+
+#### How to test
+
+### 4. Incorrect styling
+
+#### Cause
+
+A validation error occurs and the page is displayed again but the error summary is not present 
+
+#### Impact
+
+The user has to look through the whole page to try and indentify all the issues to be corrected.
+
+#### Solution
+
+#### How to test
+
+### 5. Message text
+
+#### Cause
+
+A validation error occurs and the page is displayed again but the error summary is not present 
+
+#### Impact
+
+The user has to look through the whole page to try and indentify all the issues to be corrected.
+
+#### Solution
+
+#### How to test
+
+## Related issues
 
 See [error-message]

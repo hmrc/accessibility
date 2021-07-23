@@ -4,21 +4,26 @@ The error summary component is crucial for users to easily see and correct any e
 
 Failing to provide the user with adequate information could cause a service to fail the WCAG criteria [1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)
 
-During audits we consistently see very similar issues occurring with the Error summary component, below are some of the most common findings.  
+During audits we consistently see similar issues occurring with the component, below are some of the most common findings.  
 
 ## 1. Missing error summary
 
 ### Cause
 
-A validation error occurs and the page is displayed again but the error summary component has not been implemented.
+A validation error occurs and the page is redisplayed to the user but the error summary component has not been implemented.
 
 ### Impact
 
 The user has to look through the whole page to indentify all the issues to be corrected.
 
+For screen reader and screen magnification users this can be difficult, and time consuming, to systemattically navigate through the entire page to find all the errors.
+
 ### Solution
 
 Whenever there is a validation error you should add the error summary component to the top of the page.
+
+Details about the placement of the Error summary component can be found in the design system documentation [Where to put the error summary
+](https://design-system.service.gov.uk/components/error-summary/#where-to-put-the-error-summary)
 
 ### How to test
 

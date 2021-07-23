@@ -39,11 +39,11 @@ Links within the error summary either do not work or link to the wrong destinati
 
 The main cause of this issue is that the value in the `href` does not match the corresponding `id` of the control that contains the error.
 
-This can either by an invalid id, one that does not exist or an `id` of another part of the page, for example the fieldset containing a set of radio buttons.
+This can either be an invalid `id`, one that does not exist, or an `id` of another part of the page, for example linking to a fieldset that contains a set of radio buttons.
 
 ### Impact
 
-The user is unable to quickly navigate to the issue and has to look through the whole page to indentify the issue.
+The user is unable to quickly navigate to every issue and has to look through the whole page and indentify which issue relates to the broken link.
 
 ### Solution
 

@@ -10,13 +10,27 @@ When an error occurs from user input validation, the page is displayed again wit
 
 The initial focus when the page is loaded is set to the Error summary component, this aids all users in having their attention brought to the summary and the action they need to take.
 
-This helps the user understand how many errors need to be resolved and 
+This helps the user understand how many errors need to be resolved and links to take them directly to the input, or set of inputs, that require attendtion.
+
+More information can be found on the [GOV.UK Design System - Error summary page](https://design-system.service.gov.uk/components/error-summary/)
 
 ## Common issues
 
-### Missing error summary
+During audits we consistantly see very similar issues occuring with the Error summary component, below are some of the most common findings.  
 
-When an error occurs the page is displayed again but the error summary is not present 
+### 1. Missing error summary
+
+#### Cause
+
+A validation error occurs and the page is displayed again but the error summary is not present 
+
+#### Impact
+
+The user has to look through the whole page to try and indentify all the issues to be corrected.
+
+#### Solution
+
+#### How to test
 
 
 2. Links within the error summary either do not work or link to the wrong destination

@@ -22,54 +22,80 @@ During audits we consistantly see very similar issues occuring with the Error su
 
 #### Cause
 
-A validation error occurs and the page is displayed again but the error summary is not present 
+A validation error occurs and the page is displayed again but the error summary component has not been implemented.
 
 #### Impact
 
-The user has to look through the whole page to try and indentify all the issues to be corrected.
+The user has to look through the whole page to indentify all the issues to be corrected.
 
 #### Solution
 
+Whenever there is a validation error you should add the error summary component to the top of the page.
+
 #### How to test
 
+1. Submit the page without entering any data.
+2. Check the Error summary component appears at the top of the page before the main page heading (H1)
+3. Check the Error summary component has received focus.
 
-### 2. Links within the error summary either do not work or link to the wrong destination
+### 2. Links 
+
+Links within the error summary either do not work or link to the wrong destination.
 
 #### Cause
 
-A validation error occurs and the page is displayed again but the error summary is not present 
+The main cause of this issue is that the value in the `href` does not match the corresponding `id` of the control that contains the error.
+
+This can either by an invalid id, one that does not exist or an `id` of another part of the page, for example the fieldset containing a set of radio buttons.
 
 #### Impact
 
-The user has to look through the whole page to try and indentify all the issues to be corrected.
+The user is unable to quickly navigate to the issue and has to look through the whole page to indentify the issue.
 
 #### Solution
 
+Enasure you are linking to the correct answer by following the GOV.UK pattern - [Linking from the error summary to each answer](https://design-system.service.gov.uk/components/error-summary#linking-from-the-error-summary-to-each-answer)
+
+
 #### How to test
 
-### 3. Page title not prefixed with 'Error'
+1. Submit the page without entering any data.
+2. Check the number of items in the error summary matches the number of error messages on the page.
+
+
+### 3. Page title
+
+Page title not prefixed with 'Error'
 
 #### Cause
 
-A validation error occurs and the page is displayed again but the error summary is not present 
+
 
 #### Impact
 
-The user has to look through the whole page to try and indentify all the issues to be corrected.
+
 
 #### Solution
 
+
+
 #### How to test
+
+
 
 ### 4. Incorrect styling
 
-#### Cause
+The Error summary component has specific styling to match the [GOV.UK colour pallete](https://design-system.service.gov.uk/styles/colour/)
 
-A validation error occurs and the page is displayed again but the error summary is not present 
+When used properly, the up to date GOV.UK colour pallete provides enough colour contrast to satisfy WCAG critera like [WCAG 1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) and [1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast)
+
+#### Cause of issues
+
+The majority of issues relate to using a depricated library like [assets-frontend](https://github.com/hmrc/assets-frontend) or an out of date version of [govuk-frontend](https://github.com/alphagov/govuk-frontend/)
 
 #### Impact
 
-The user has to look through the whole page to try and indentify all the issues to be corrected.
+Low colour contrast can affect users
 
 #### Solution
 

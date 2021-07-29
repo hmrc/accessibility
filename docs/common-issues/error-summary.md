@@ -96,9 +96,7 @@ Always use the latest compatible version of the library your service is built on
 2. Visually check the service matches the [GOV.UK colour pallette](https://design-system.service.gov.uk/styles/colour/).
 3. Use a tool like [WAVE for Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) to test the contast of items on a page.
 
-## 5. Message text
-
-### Cause
+## 5. Error message text
 
 A validation error occurs, the error summary is displayed, but the error messages are ambigous or convoluted. 
 

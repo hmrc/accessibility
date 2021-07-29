@@ -25,7 +25,7 @@ Details about the placement of the Error summary component can be found in the d
 ### How to test
 
 1. Submit the page without entering any data.
-2. Check the Error summary component appears at the top of the page before the main page heading (H1)
+2. Check the Error summary component appears at the top of the page before the main page heading (H1).
 3. Check the Error summary component has received focus.
 4. Check the number of entries in the summary match the number of errors on the page.
 
@@ -112,5 +112,5 @@ Ensure for each error scenario you write [clear and concise error messages](http
 
 ### How to test
 
-As with all content, testing with real users, with a wide range of requirements, provides the best results. User feedback and the ability to witness users quickly and easily understand, and correct, mistakes will ensure your error messaging is optimised for all users.
+As with all content, testing with a wide range of users provides the best results. User feedback and the ability to witness users quickly and easily understand, and correct, mistakes will ensure your error messaging is optimised for all users.
 

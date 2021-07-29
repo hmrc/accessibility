@@ -102,7 +102,7 @@ A validation error occurs, the error summary is displayed, but the error message
 
 ### Impact
 
-The user has to look through the whole page to try and indentify all the issues to be corrected.
+Without clear error messages the user has to look through the whole page to try and indentify all the issues to be corrected. In some cases this could cause the user to be unable to procede and abandon using the service altogether.
 
 ### Solution
 

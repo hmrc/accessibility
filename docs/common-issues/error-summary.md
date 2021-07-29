@@ -8,9 +8,7 @@ During audits we consistently see similar issues occurring with the component, b
 
 ## 1. Missing error summary
 
-### Cause
-
-A validation error occurs and the page is redisplayed to the user but the error summary component has not been implemented.
+A validation error occurs, the page is redisplayed, but the error summary component is not present.
 
 ### Impact
 
@@ -20,7 +18,7 @@ For screen reader and screen magnification users this can be difficult, and time
 
 ### Solution
 
-Whenever there is a validation error you should add the error summary component to the top of the page.
+Whenever there is a validation error you should implement the error summary component at the top of the page, before the main page heading (H1).
 
 Details about the placement of the Error summary component can be found in the design system documentation [Where to put the error summary](https://design-system.service.gov.uk/components/error-summary/#where-to-put-the-error-summary).
 
@@ -31,11 +29,9 @@ Details about the placement of the Error summary component can be found in the d
 3. Check the Error summary component has received focus.
 4. Check the number of entries in the summary match the number of errors on the page.
 
-## 2. Links 
+## 2. Invalid links 
 
 Links within the error summary either do not work or link to the wrong destination.
-
-### Cause
 
 The main cause of this issue is that the value in the `href` does not match the corresponding `id` of the control that contains the error.
 
@@ -47,8 +43,7 @@ The user is unable to quickly navigate to every issue and has to look through th
 
 ### Solution
 
-Enasure you are linking to the correct answer by following the GOV.UK pattern - [Linking from the error summary to each answer](https://design-system.service.gov.uk/components/error-summary#linking-from-the-error-summary-to-each-answer).
-
+Ensure you are linking to the correct answer by following the GOV.UK pattern - [Linking from the error summary to each answer](https://design-system.service.gov.uk/components/error-summary#linking-from-the-error-summary-to-each-answer).
 
 ### How to test
 
@@ -58,15 +53,11 @@ Enasure you are linking to the correct answer by following the GOV.UK pattern - 
 4. Check date input fields focus the first field containing an error.
 
 
-## 3. Page title
+## 3. Page title not prefixed with the word 'Error'
 
-Page title not does not follow the service standard [validation pattern](https://design-system.service.gov.uk/patterns/validation/) when an error occurs.
+The page title not does not follow the service standard [validation pattern](https://design-system.service.gov.uk/patterns/validation/) when an error occurs.
 
-Although not strictly an issue with the Error summary component the two are inherently linked. Assistive technology users will become familar with the pattern and know that when the page title is proceeded with the word "Error" their focus will be automatically set to a specific place on the page, i.e. to the Error Summary.
-
-### Cause
-
-The page title is not updated when a validation error occurs with the prefixed with the word 'Error:'.
+Although not strictly an issue with the Error summary component the two are inherently linked. Assistive technology users will become familar with the pattern and know that when the page title is proceeded with the word "Error: " an error has occured and their focus will be automatically set to a specific place on the page, i.e. to the Error Summary.
 
 ### Impact
 
@@ -74,7 +65,7 @@ Without the page title being prefixed with the word "Error: " assistive technolo
 
 ### Solution
 
-Whenever an error occurs with input validation the returned page should have it's `<title>` element prefixed with the word "Error"
+Whenever an error occurs with input validation the returned page should have it's `<title>` element prefixed with the word "Error: "
 
 ### How to test
 
@@ -83,33 +74,33 @@ Whenever an error occurs with input validation the returned page should have it'
 
 ## 4. Incorrect styling
 
-The Error summary component has specific styling to match the [GOV.UK colour pallete](https://design-system.service.gov.uk/styles/colour/)
+The Error summary component has specific styling to match the [GOV.UK colour pallete](https://design-system.service.gov.uk/styles/colour/).
 
 When used properly, the up to date GOV.UK colour pallete provides enough colour contrast to satisfy WCAG critera [1.4.3: Contrast (Minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum) and [1.4.11: Non-text Contrast](https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast).
 
 ### Cause of issues
 
-The majority of issues relate to using a depricated library like [assets-frontend](https://github.com/hmrc/assets-frontend) or an out of date version of [govuk-frontend](https://github.com/alphagov/govuk-frontend/)
+The majority of issues relate to using a depricated library like [assets-frontend](https://github.com/hmrc/assets-frontend) or an out of date version of [govuk-frontend](https://github.com/alphagov/govuk-frontend/).
 
 ### Impact
 
-Low colour contrast can affect users with various vision related conditions and can cause unnessessry eye strain when using a service. 
+Low colour contrast can affect users with various vision related conditions and can cause unnessessry eye strain when using our services. 
 
 ### Solution
 
-Always use the latest compatible version of the library your service is built on and for existing services update it to use [govuk-frontend](https://github.com/alphagov/govuk-frontend/) if you haven't already.
+Always use the latest compatible version of the library your service is built on and, if posible, existing services should update to use [govuk-frontend](https://github.com/alphagov/govuk-frontend/) if they haven't already.
 
 ### How to test
 
 1. Submit the page with 1 or more invalid entries.
-2. Visually check the service matches the [GOV.UK colour pallette](https://design-system.service.gov.uk/styles/colour/)
+2. Visually check the service matches the [GOV.UK colour pallette](https://design-system.service.gov.uk/styles/colour/).
 3. Use a tool like [WAVE for Chrome](https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh) to test the contast of items on a page.
 
 ## 5. Message text
 
 ### Cause
 
-A validation error occurs, the Error Summary is displayed but the message text is ambigous or convaluted. 
+A validation error occurs, the error summary is displayed, but the error messages are ambigous or convoluted. 
 
 ### Impact
 
@@ -117,9 +108,9 @@ The user has to look through the whole page to try and indentify all the issues 
 
 ### Solution
 
-For each error scenario write clear, concise, error messages and 
+Ensure for each error scenario you write [clear and concise error messages](https://design-system.service.gov.uk/components/error-message#be-clear-and-concise).
 
 ### How to test
 
-As with all content, testing with real users provides the best results, user feedback and the ability for users to quickly and easily understand and correct mistakes will ensure your error messaging is meaningful to the user.
+As with all content, testing with real users, with a wide range of requirements, provides the best results. User feedback and the ability to witness users quickly and easily understand, and correct, mistakes will ensure your error messaging is optimised for all users.
 

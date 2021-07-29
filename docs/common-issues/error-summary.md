@@ -1,6 +1,6 @@
 # Error summary
 
-The error summary component is crucial for users to easily see and correct any errors with the information entered on a page.
+The [error summary component](https://design-system.service.gov.uk/components/error-summary/) is crucial for users to easily see and correct any errors with the information entered on a page.
 
 Failing to provide the user with adequate information could cause a service to fail the WCAG criteria [1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)
 

@@ -12,10 +12,10 @@ Details about the placement of the Error summary component can be found in the d
 
 ## Labels
 
-- usability
-- error summary
 - wcag
 - wcag 1.3.1
+- usability
+- error summary
 
 ## Report
 

@@ -14,11 +14,12 @@ Add ‘opens in new tab’ as part of the visible link which opens in the new ta
 
 ## Labels
 
+* wcag
+* wcag 3.2.5 (AAA)
 * design pattern
 * usability
 * typography
-* wcag
-* wcag 3.2.5 (AAA)
+
 
 ## Report
 

@@ -32,3 +32,6 @@ Add ‘opens in new tab’ as part of the visible link which opens in the new ta
 [Links pattern - GOV.UK Design Pattern](https://design-system.service.gov.uk/styles/typography/#links)
 
 [Using the target attribute to open a new window on user request and indicating this in link text](https://www.w3.org/WAI/WCAG21/Techniques/html/H83)
+
+[Understanding Success Criterion 3.2.5: Change on Request](https://www.w3.org/WAI/WCAG21/Understanding/change-on-request)
+

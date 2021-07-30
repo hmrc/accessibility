@@ -10,6 +10,7 @@ Whenever an input validation error occurs the returned page should have the cont
 
 ## Labels
 
+- page title
 - usability
 
 ## Report

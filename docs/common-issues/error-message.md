@@ -13,7 +13,7 @@ Ensure for each error scenario you write [clear and concise error messages](http
 ## Labels
 
 - wcag
-- wcag 1.3.1
+- wcag 1.3.1 (A)
 - usability
 - error message
 
@@ -40,4 +40,6 @@ tbc
 ## References
 
 [Error message - GOV.UK Design System](https://design-system.service.gov.uk/components/error-message/)
+
+[Understanding Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)
 

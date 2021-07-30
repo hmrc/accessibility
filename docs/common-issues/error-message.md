@@ -12,9 +12,10 @@ Ensure for each error scenario you write [clear and concise error messages](http
 
 ## Labels
 
+- wcag
+- wcag 1.3.1
 - usability
 - error message
-- wcag 1.3.1
 
 ## Report
 

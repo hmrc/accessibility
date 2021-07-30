@@ -24,8 +24,6 @@ Ensure for each error scenario you write [clear and concise error messages](http
 
 ## Statement
 
-## Statement
-
 ### Accessibility problems
 
 ```

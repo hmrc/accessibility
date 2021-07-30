@@ -10,6 +10,7 @@ Ensure you are using the latest version of the framework for your service and th
 
 ## Labels
 
+- wcag
 - wcag 1.4.3
 - service timeout
 - usability

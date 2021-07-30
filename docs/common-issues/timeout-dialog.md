@@ -11,7 +11,7 @@ Implement the service timeout, follow the [service timeout pattern](https://desi
 ## Labels
 
 - wcag
-- wcag 2.2.1
+- wcag 2.2.1 (A)
 - service timeout
 - usability
 

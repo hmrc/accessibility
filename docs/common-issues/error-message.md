@@ -40,6 +40,5 @@ tbc
 
 ## References
 
-[Error summary - GOV.UK Design System](https://design-system.service.gov.uk/components/error-summary/)
+[Error message - GOV.UK Design System](https://design-system.service.gov.uk/components/error-message/)
 
-[Validation pattern - GOV.UK Design System](https://design-system.service.gov.uk/patterns/validation/)

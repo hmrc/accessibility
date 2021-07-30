@@ -39,6 +39,6 @@ tbc
 
 [GOV.UK colour pallete](https://design-system.service.gov.uk/styles/colour/).
 
-[Design system - Error message](https://design-system.service.gov.uk/components/error-message/)
+[Error message - GOV.UK Design System](https://design-system.service.gov.uk/components/error-message/)
 
-[Design system - Error summary](https://design-system.service.gov.uk/components/error-summary/)
+[Error summary - GOV.UK Design System](https://design-system.service.gov.uk/components/error-summary/)

@@ -29,4 +29,4 @@ Follow the [validation pattern](https://design-system.service.gov.uk/patterns/va
 
 
 ## References
-[Validation pattern - GOV.UK Design pattern](https://design-system.service.gov.uk/patterns/validation/) 
+[Validation pattern - GOV.UK Design Pattern](https://design-system.service.gov.uk/patterns/validation/) 

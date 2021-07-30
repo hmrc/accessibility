@@ -44,3 +44,4 @@ tbc
 
 [Error summary - GOV.UK Design System](https://design-system.service.gov.uk/components/error-summary/)
 
+[Understanding Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)

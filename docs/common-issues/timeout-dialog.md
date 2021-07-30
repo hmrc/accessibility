@@ -36,6 +36,7 @@ a timeout occurs without the ability for the user to extend their session. This 
 ```
 
 ## References
+
 [Service timeout pattern](https://design.tax.service.gov.uk/hmrc-design-patterns/service-timeout/) 
 
 [Understanding Success Criterion 2.2.1: Timing Adjustable](https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable)

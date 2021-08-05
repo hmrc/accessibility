@@ -8,9 +8,9 @@ This is a WCAG 2.1 AAA requirement - [Success Criterion 3.2.5 Change on Request 
 
 ## To resolve:
 
-Follow the [opening links in a new tab pattern](https://design-system.service.gov.uk/styles/typography/#opening-links-in-a-new-tab) to make it clear clear in the link text that it will open in a new tab.
+Follow the [opening links in a new tab pattern](https://design-system.service.gov.uk/styles/typography/#opening-links-in-a-new-tab).
 
-Add ‘opens in new tab’ as part of the visible link to make it easily identifiable for all users as well as being announced as part of the link for assistive technology users.
+Add ‘opens in new tab’ as part of the visible link to make it clear for all users as well as being announced as part of the link for assistive technology users.
 
 ## Labels
 

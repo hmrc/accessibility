@@ -2,15 +2,15 @@
 
 Links that open in a new tab should contain text informing the user that they will be taken to a new browser tab. 
 
-This will help assistive technology users understand the result of the action and help prevent them possibly getting disorientated when the browser back button is unavailable.
+This will help all users understand the result of the action and help prevent them possibly getting disorientated when the browser back button is unresponsive.
 
 This is a WCAG 2.1 AAA requirement - [Success Criterion 3.2.5 Change on Request (Level AAA)](https://www.w3.org/WAI/WCAG21/Understanding/change-on-request)
 
 ## To resolve:
 
-Follow the [external links pattern](https://design-system.service.gov.uk/styles/typography/#opening-links-in-a-new-tab) to make it clear clear in the link text that it will open in a new window.
+Follow the [opening links in a new tab pattern](https://design-system.service.gov.uk/styles/typography/#opening-links-in-a-new-tab) to make it clear clear in the link text that it will open in a new tab.
 
-Add ‘opens in new tab’ as part of the visible link which opens in the new tab. The text should be part of the link to make it easily identifiable for all users as well as being announced as part of the link for assistive technology users.
+Add ‘opens in new tab’ as part of the visible link to make it easily identifiable for all users as well as being announced as part of the link for assistive technology users.
 
 ## Labels
 

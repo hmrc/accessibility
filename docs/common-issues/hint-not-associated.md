@@ -1,6 +1,6 @@
 # Issue: Hint not associated with input
 
-Hint copy is present for the form control but it is not programmatically associated with it. 
+Hint copy is present for the form control but it is not programmatically associated with it.
 
 This means that a screen-reader user who is navigating by form fields, or who moves directly to a field from an error summary link, will not hear the hint copy.
 
@@ -47,6 +47,6 @@ Information required to assist in correctly filling out form fields is not progr
 
 ## References
 
-[Text input pattern - Gov.UK Design Pattern](https://design-system.service.gov.uk/components/text-input/#hint-text) 
+[Guidance on hint copy - Gov.UK Design System](https://design-system.service.gov.uk/components/text-input/#hint-text)
 
 [Understanding Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)

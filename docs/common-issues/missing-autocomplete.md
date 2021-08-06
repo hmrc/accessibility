@@ -38,5 +38,7 @@ input fields are missing autocomplete attributes which may mean the user will be
 ```
 
 ## References
-[Text input pattern - Gov.UK Design Patterns](https://design-system.service.gov.uk/components/text-input/#use-the-autocomplete-attribute)
+
+[Text input - Gov.UK Design System](https://design-system.service.gov.uk/components/text-input/#use-the-autocomplete-attribute)
+
 [Understanding Success Criterion 1.3.5: Identify Input Purpose](https://www.w3.org/WAI/WCAG21/Understanding/identify-input-purpose.html)

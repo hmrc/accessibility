@@ -1,6 +1,6 @@
 # Issue: Error not associated with input
 
-The error message is present for the form control but it is not programmatically associated with it. 
+The error message is present for the form control but it is not programmatically associated with it.
 
 This means that a screen-reader user who is navigating by form fields, or who moves directly to a field from an error summary link, will not hear the error message.
 
@@ -45,6 +45,6 @@ Error messages are not programmatically associated with the fields. This fails W
 
 ## References
 
-[Error message pattern - Gov.UK Design Pattern](https://design-system.service.gov.uk/components/error-message/) 
+[Error messages - Gov.UK Design System](https://design-system.service.gov.uk/components/error-message/)
 
 [Understanding Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)

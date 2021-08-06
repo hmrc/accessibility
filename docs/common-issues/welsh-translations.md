@@ -30,6 +30,6 @@ However it is possible to send an override skip link to the @skipLinkBlock code 
 
 ## References
 
-[Language toggle - HMRC Design Pattern](https://design.tax.service.gov.uk/hmrc-design-patterns/welsh-language-toggle/)
+[Language toggle - HMRC Design System](https://design.tax.service.gov.uk/hmrc-design-patterns/welsh-language-toggle/)
 
 [Understanding Success Criterion 3.1.2: Language of Parts](https://www.w3.org/WAI/WCAG21/Understanding/language-of-parts.html)

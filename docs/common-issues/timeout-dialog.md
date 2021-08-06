@@ -2,7 +2,7 @@
 
 The page does not contain the timeout dialog, this is critical in allowing users the time they need to work through a service and complete tasks without losing data.
 
-People with disabilities such as blindness, low vision, dexterity impairments or cognitive impairments may require more time to read content or to complete a task like filling in a form. 
+People with disabilities such as blindness, low vision, dexterity impairments or cognitive impairments may require more time to read content or to complete a task like filling in a form.
 
 ## To resolve:
 
@@ -37,7 +37,7 @@ a timeout occurs without the ability for the user to extend their session. This 
 
 ## References
 
-[Service timeout pattern - HMRC Design Pattern](https://design.tax.service.gov.uk/hmrc-design-patterns/service-timeout/) 
+[Service timeouts - HMRC Design System](https://design.tax.service.gov.uk/hmrc-design-patterns/service-timeout/)
 
 [Understanding Success Criterion 2.2.1: Timing Adjustable](https://www.w3.org/WAI/WCAG21/Understanding/timing-adjustable)
 

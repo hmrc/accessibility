@@ -12,8 +12,12 @@
 ## Form-related issues
 - [Hint not associated](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/hint-not-associated.md) Draft
 - [Missing autocomplete](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-autocomplete.md) Draft
+- [Missing fieldset or legend](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-fieldset-or-legend.md) Draft
+- [Missing label](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-label.md) Draft
 - [Missing instructions](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-instructions.md) Draft
 - [Nested fieldsets](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/nested-fieldsets.md) Draft
+- [Type attribute incorrect](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/type-attribute-incorrect.md) Draft
+- [Unassociated label](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/unassociated-label.md) Draft
 
 ## Other issues
 - [Content not translated to Welsh](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/welsh-translations.md) Draft

@@ -14,6 +14,7 @@ Additionally there are certain `type` attributes which should be avoided because
 - do not use `type="number"` as this has [several issues](https://design-system.service.gov.uk/components/text-input/#avoid-using-inputs-with-a-type-of-number), both from an accessibility and usability standpoint. Instead you should use `inputmode="numeric"` for whole numbers (along with `pattern="[0-9]*"` for legacy support).
 - for decimal numbers, due to issues with browser support you should use a plain `type="text"` with no `inputmode`.
 
+Note, when adding a `pattern` attribute or certain `type` attributes like "email" or "url", this will trigger HTML5 form validation due to intrinsic constraints. As this is not desirable behaviour, to stop this from happening you should add a `novalidate` attribute to the `form` element.
 
 ## Labels
 - text input

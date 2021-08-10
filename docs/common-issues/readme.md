@@ -14,6 +14,7 @@
 - [Missing autocomplete](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-autocomplete.md) Draft
 - [Missing fieldset or legend](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-fieldset-or-legend.md) Draft
 - [Missing label](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-label.md) Draft
+- [Missing inputmode](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-inputmode.md) Draft
 - [Missing instructions](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-instructions.md) Draft
 - [Nested fieldsets](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/nested-fieldsets.md) Draft
 - [Type attribute incorrect](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/type-attribute-incorrect.md) Draft

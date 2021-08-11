@@ -26,5 +26,6 @@
 - [HTML validation (WCAG)](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/html-validation-wcag.md) Draft
 - [Insufficient contast](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/insufficient-contast.md) Draft
 - [Missing 'opens in a new tab' as part of the link](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/open-in-new-window-links.md) Draft
-- [No service timeout](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/timeout-dialog.md) Draft
+- [Timeout dialog missing](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/timeout-dialog.md) Draft
+- [Timeout dialog doesn't extend session](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/timeout-dialog-cannot-extend-session.md) Draft
 - [Page title incomplete](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/page-title-incomplete.md) Draft

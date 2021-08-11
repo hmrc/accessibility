@@ -11,6 +11,7 @@
 
 ## Form-related issues
 - [Hint not associated](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/hint-not-associated.md) Draft
+- [HTML5 form field validation present](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/html5-validation-present.md) Draft
 - [Missing autocomplete](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-autocomplete.md) Draft
 - [Missing fieldset or legend](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-fieldset-or-legend.md) Draft
 - [Missing label](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-label.md) Draft

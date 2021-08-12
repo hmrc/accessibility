@@ -6,7 +6,7 @@ An accessible name is added to an input using a `for` attribute on the associate
 
 ## To resolve
 
-Follow the [text input guidance](https://design-system.service.gov.uk/components/text-input/). Ensure the label is correctly associated with the input by clicking the label - the input should receive focus.
+Follow the [text input guidance in the GOV.UK Design System](https://design-system.service.gov.uk/components/text-input/). Ensure the label is correctly associated with the input by clicking the label - the input should receive focus.
 
 ## Labels
 
@@ -37,7 +37,7 @@ the required data is not communicated to the user. This fails WCAG 2.1 success c
 
 ## References
 
-[Text input - Gov.UK Design System](https://design-system.service.gov.uk/components/text-input/)
+[Text input - GOV.UK Design System](https://design-system.service.gov.uk/components/text-input/)
 
 [Understanding Success Criterion 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)
 

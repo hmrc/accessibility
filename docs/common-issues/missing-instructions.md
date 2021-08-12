@@ -38,6 +38,6 @@ the required format for data entry is not communicated to the user. This fails W
 
 ## References
 
-[Guidance on hint copy - Gov.UK Design System](https://design-system.service.gov.uk/components/text-input/#hint-text)
+[Guidance on hint copy - GOV.UK Design System](https://design-system.service.gov.uk/components/text-input/#hint-text)
 
 [Understanding Success Criterion 3.3.2: Labels or Instructions](https://www.w3.org/WAI/WCAG21/Understanding/labels-or-instructions.html)

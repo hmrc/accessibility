@@ -4,11 +4,9 @@ Links that open in a new tab should contain text informing the user that they wi
 
 This will help all users understand the result of the action and help prevent them possibly getting disorientated when the browser back button is unresponsive.
 
-This is a WCAG 2.1 AAA requirement - [Success Criterion 3.2.5 Change on Request (Level AAA)](https://www.w3.org/WAI/WCAG21/Understanding/change-on-request)
-
 ## To resolve:
 
-Follow the [opening links in a new tab pattern](https://design-system.service.gov.uk/styles/typography/#opening-links-in-a-new-tab).
+Follow the [opening links in a new tab guidance](https://design-system.service.gov.uk/styles/typography/#opening-links-in-a-new-tab).
 
 Add ‘opens in new tab’ as part of the visible link to make it clear for all users as well as being announced as part of the link for assistive technology users.
 
@@ -27,6 +25,9 @@ Add ‘opens in new tab’ as part of the visible link to make it clear for all 
 | -------- | ----- |
 | 🔴 P1    | [#issue](): Missing ‘opens in new tab’ as part of the link |
 
+## Statement
+
+This is not a WCAG A/AA failure so it does not have to be included on the accessibility statement, but we strongly recommend resolving the issue to improve the usability of the service.
 ## References
 
 [Links - GOV.UK Design System](https://design-system.service.gov.uk/styles/typography/#links)

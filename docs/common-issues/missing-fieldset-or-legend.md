@@ -48,7 +48,7 @@ there is a missing fieldset and/or legend. This fails WCAG 2.1 success criterion
 
 ## References
 
-[Fieldsets - Gov.UK Design System](https://design-system.service.gov.uk/components/fieldset/)
+[Fieldsets - GOV.UK Design System](https://design-system.service.gov.uk/components/fieldset/)
 
 [Using the fieldset and legend elements - Accessibility in government blog](https://accessibility.blog.gov.uk/2016/07/22/using-the-fieldset-and-legend-elements/)
 

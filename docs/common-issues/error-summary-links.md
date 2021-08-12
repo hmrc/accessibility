@@ -10,7 +10,7 @@ The user is unable to quickly navigate to every issue and has to look through th
 
 ## To resolve:
 
-Ensure you are linking to the correct answer by following the GOV.UK pattern - [Linking from the error summary to each answer](https://design-system.service.gov.uk/components/error-summary#linking-from-the-error-summary-to-each-answer).
+Ensure you are linking to the correct answer by following the [GOV.UK Design System pattern](https://design-system.service.gov.uk/components/error-summary#linking-from-the-error-summary-to-each-answer).
 
 ## Labels
 

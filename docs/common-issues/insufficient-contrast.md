@@ -28,7 +28,19 @@ Either:
 | 🔴 (H) | A    | [#issue](): Contrast of form controls | 1.4.11 Non-text contrast |
 | 🔴 (H) | A    | [#issue](): Contrast of links | 1.4.3 Contrast (minimum)|
 
+## Statement
 
+### Accessibility problems
+
+```
+some of the colours used may make it difficult to differentiate elements or see where the focus of the keyboard is at any one time
+```
+
+### Milestones
+
+```
+contrast of some elements is too low and does not meet the required levels. This fails WCAG 2.1 success criterion 1.4.11 Non-text contrast and 1.4.3 Contrast (minimum)
+```
 ## References
 
 [Understanding focus state styles - Gov.UK Design System](https://design-system.service.gov.uk/get-started/focus-states/)

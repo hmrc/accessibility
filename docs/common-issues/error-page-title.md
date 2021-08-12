@@ -16,12 +16,12 @@ Whenever an input validation error occurs the returned page should have the cont
 ## Report
 
 | Priority | Issue |
-| -------- | ----- | 
+| -------- | ----- |
 | 🔴 P1     | [#issue](): Page title not prefixed with the word 'Error' |
 
 ## Statement
 
-This is not a WCAG failure so it does not have to be included on the accessibility statement, but we strongly recommend resolving the issue to improve the usability of the service.
+This is not a WCAG A/AA failure so it does not have to be included on the accessibility statement, but we strongly recommend resolving the issue to improve the usability of the service.
 
 ## References
 

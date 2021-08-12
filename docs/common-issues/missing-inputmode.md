@@ -28,15 +28,19 @@ The following should use the specific `type` attributes rather than the matching
 | -------- | ----- |
 | 🔴 P1     | [#issue](): Inputmode attribute missing |
 
+## Statement
+
+This is not a WCAG A/AA failure so it does not have to be included on the accessibility statement, but we strongly recommend resolving the issue to improve the usability of the service.
+
 ## Reference
 
-[Email address - Gov.UK Design System](https://design-system.service.gov.uk/patterns/email-addresses/)
+[Email address - GOV.UK Design System](https://design-system.service.gov.uk/patterns/email-addresses/)
 
-[Telephone numbers - Gov.UK Design System](https://design-system.service.gov.uk/patterns/telephone-numbers/)
+[Telephone numbers - GOV.UK Design System](https://design-system.service.gov.uk/patterns/telephone-numbers/)
 
-[Date pattern - Gov.UK Design System](https://design-system.service.gov.uk/components/date-input/)
+[Date pattern - GOV.UK Design System](https://design-system.service.gov.uk/components/date-input/)
 
-[Guidance on asking for numbers - Gov.UK Design System](https://design-system.service.gov.uk/components/text-input/#avoid-using-inputs-with-a-type-of-number)
+[Guidance on asking for numbers - GOV.UK Design System](https://design-system.service.gov.uk/components/text-input/#avoid-using-inputs-with-a-type-of-number)
 
 [Why the GOV.UK Design System team changed the input type for numbers - Technology in government blog](https://technology.blog.gov.uk/2020/02/24/why-the-gov-uk-design-system-team-changed-the-input-type-for-numbers/)
 

@@ -23,6 +23,10 @@ Move the hint and error messages out of the label or legend, assign each an `id`
 |----------|-------|
 | 🔴 P1    | [#issue]() Hint or error message nested inside label or legend |
 
+## Statement
+
+This is not a WCAG A/AA failure so it does not have to be included on the accessibility statement, but we strongly recommend resolving the issue to improve the usability of the service.
+
 ## References
 
 [Text input - GOV.UK Design System](https://design-system.service.gov.uk/components/text-input/)

@@ -6,9 +6,7 @@ This causes the user to have to look through the whole page to indentify the iss
 
 ## To resolve:
 
-Whenever there is a validation error you should implement the error summary component at the top of the page, before the main page heading (H1).
-
-Details about the placement of the Error summary component can be found in the design system documentation [Where to put the error summary](https://design-system.service.gov.uk/components/error-summary/#where-to-put-the-error-summary).
+Whenever there is a validation error you should show the error summary component at the top of the page, before the `h1` but after the back link (if present). For more details, check the [GOV.UK Design System guidance](https://design-system.service.gov.uk/components/error-summary/#where-to-put-the-error-summary).
 
 ## Labels
 

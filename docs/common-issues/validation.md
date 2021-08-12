@@ -27,7 +27,9 @@ Follow the [validation pattern](https://design-system.service.gov.uk/patterns/va
 |----------|-------|
 | 🔴 P1    | [#issue]() Validation |
 
+## Statement
 
+This is not a WCAG A/AA failure so it does not have to be included on the accessibility statement, but we strongly recommend resolving the issue to improve the usability of the service.
 ## References
 
 [Validation pattern - GOV.UK Design System](https://design-system.service.gov.uk/patterns/validation/)

@@ -40,7 +40,7 @@ form field is missing a programatically associated name. This fails WCAG 2.1 suc
 
 ## References
 
-[Text input - Gov.UK Design System](https://design-system.service.gov.uk/components/text-input/)
+[Text input - GOV.UK Design System](https://design-system.service.gov.uk/components/text-input/)
 
 [Understanding Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships.html)
 

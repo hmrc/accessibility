@@ -2,7 +2,7 @@
 
 Links should use the Gov.UK style which applies a highly visible focus style. This greatly assists keyboard-only users and those with vision impairments in locating the currently focussed control.
 
-Whilst using the browser-default styles does not contitute a WCAG failure, these do vary from browser-to-browser. In some cases these default styles can conflict with other author styles on the page which will render them even less visible and could trigger a failure.
+Whilst using the browser-default styles does not constitute a WCAG failure, these do vary from browser-to-browser. In some cases these default styles can conflict with other author styles on the page which will render them even less visible and could trigger a failure.
 
 Where there are isolated examples of this it can mean a link is missed entirely as the user is looking for the standard Gov.UK styles.
 

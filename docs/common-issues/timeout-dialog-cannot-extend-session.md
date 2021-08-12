@@ -11,6 +11,12 @@ Being able to extend a session is critical in allowing users the time they need 
 
 People with disabilities such as blindness, low vision, dexterity impairments or cognitive impairments may require more time to read content or to complete a task like filling in a form.
 
+## To resolve
+
+- ensure the endpoint for the "stay signed in" option is truly refreshing the user's session
+- where a second service is being passed to, this can be partially remediated by targeting both service's endpoints from the second service's timeout dialog. Other techniques may be necessary for where timeout's are being caused due to time spent on the second service before being passed to the first.
+
+
 ## Labels
 
 - wcag

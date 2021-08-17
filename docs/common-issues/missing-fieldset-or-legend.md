@@ -2,11 +2,13 @@
 
 When displaying multiple fields which are to be considered as a group (for example checkboxes or radio buttons) they should be wrapped in a `fieldset` and this should be accompanied by a `legend` as the `fieldset`'s first child. Whilst a `legend` is strictly optional, it forms part of the contextual placement for the fields within so should always be added. If the contained fields' individual labels do not convey the meaning alone then this becomes a WCAG issue.
 
+A missing fieldset also means that the `legend` will not be associated with the inputs and so will not be announced with the inputs or when entering the group. It also means any error or hint message will not be programmatically linked to the inputs as this is done off the fieldset element. 
+
 ## To resolve
 
 - add a wrapping `fieldset` around the appropriate fields if one is not present
 - ensure any hint is associated with the fields by adding an `aria-describedby` attribute to the `fieldset` using the `id` attribute of the hint element
-- when an error is present for the fields within the `fieldset` add the `id` of the error message to the `aria-describedby` attribute
+- when an error is present for the fields within the `fieldset` add the `id` of the error message to the `aria-describedby` attribute of the `fieldset`
 - make sure a `legend` is present as the first child of the `fieldset`
     - the legend should not be empty - it should contain the copy for the question related to the contained fields
     - the `legend` can be hidden to avoid visual duplication by the addition of a `govuk-visually-hidden` class

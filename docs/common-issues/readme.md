@@ -5,7 +5,6 @@
 - [Error message not associated](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/error-not-associated.md) Draft
 - [Error summary contains invalid links](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/error-summary-links.md) Draft
 - [Error summary missing](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/error-summary-missing.md) Draft
-- [Incorrect error style](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/error-styles.md) Draft
 - [Page title not prefixed with the word 'Error'](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/error-page-title.md) Draft
 - [Validation](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/validation.md) Draft
 

@@ -1,6 +1,10 @@
 # Issue: Insufficient contrast (legacy styles)
 
-With the arrival of WCAG 2.1 many of the colour palette and focus styles used in the design systems needed to be updated to be compliant. If your service is using an old version of a library (eg pre Assets Frontend 3.14.0) then you should look at updating to the latest version as soon as possible.
+With the arrival of WCAG 2.1 many of the colour palette and focus styles used in the design systems needed to be updated to be compliant.
+
+Low colour contrast can affect users with various vision related conditions and can cause unnessessry eye strain when using the service.
+
+If your service is using an old version of a library (eg pre Assets Frontend 3.14.0) then you should look at updating to the latest version as soon as possible.
 
 The legacy styles affected include:
 - link focus state

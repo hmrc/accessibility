@@ -1,8 +1,10 @@
-# Issue:  Missing ‘opens in new tab’ as part of the link [draft]
+# Issue:  Opening content in a new tab [draft]
 
-Links that open in a new tab should contain text informing the user that they will be taken to a new browser tab.
+Links that open in a new tab should contain text informing the user that they will be taken to a new browser tab and include the appropriate `rel` attributes for the type of content being accessed.
 
-This will help all users understand the result of the action and help prevent them possibly getting disorientated when the browser back button is unresponsive.
+The additional text will help all users understand the result of the action and help prevent them possibly getting disorientated when the browser back button is unresponsive.
+
+The purpose of the `rel="noreferrer noopener"` attributes is to ensure linking to cross-origin destinations (webpages outside the gov.uk domain) are safe for the user.
 
 ## To resolve:
 

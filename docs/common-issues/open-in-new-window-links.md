@@ -4,7 +4,7 @@ Links that open in a new tab should contain text informing the user that they wi
 
 The additional text will help all users understand the result of the action and help prevent them possibly getting disorientated when the browser back button is unresponsive.
 
-The purpose of the `rel="noreferrer noopener"` attributes is to ensure linking to cross-origin destinations (webpages outside the gov.uk domain) are safe for the user.
+The purpose of the `rel="noreferrer noopener"` attributes is to ensure links to cross-origin destinations (webpages outside the gov.uk domain) are safe for the user.
 
 ## To resolve:
 

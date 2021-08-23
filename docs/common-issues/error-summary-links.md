@@ -6,7 +6,7 @@ The value in the `href` does not match the corresponding `id` of the control tha
 
 This could either be an invalid `id`, one that does not exist, or an `id` that links to another part of the page, for example linking to a fieldset that contains a set of radio buttons.
 
-The user is unable to quickly navigate to every issue and has to look through the whole page and indentify which issue relates to the broken link.
+The user is unable to quickly navigate to every issue and has to look through the whole page and identify which issue relates to the broken link.
 
 ## To resolve:
 

@@ -19,6 +19,7 @@
 - [Nested fieldsets](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/nested-fieldsets.md) Draft
 - [Type attribute incorrect](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/type-attribute-incorrect.md) Draft
 - [Unassociated label](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/unassociated-label.md) Draft
+- [Conditionally revealing content](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/conditionally-revealing-content.md) Draft
 
 ## Other issues
 - [Content not translated to Welsh](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/welsh-translations.md) Draft

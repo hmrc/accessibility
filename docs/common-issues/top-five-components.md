@@ -1,8 +1,10 @@
-# Top 5 common issues
+# Top 5 components associated with reported issues
 
 Last updated on 24th September 2021
 
-The top 5 components reported to have issues when audited by our team.
+The top 5 components, patterns or styles that were reported to contain accessibility issues.
+
+The majority of issues are generally caused by incorrect implementation, but issues can also be caused by out of date libraries and in some circumstances with the actual component themselves.
 
 ## 1. Error summary
 

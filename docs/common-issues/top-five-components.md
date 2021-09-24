@@ -1,6 +1,6 @@
 # Top 5 components associated with reported issues
 
-Last updated on 24th September 2021
+Last updated on 24th September 2021.
 
 The top 5 components, patterns or styles that were reported to contain accessibility issues.
 

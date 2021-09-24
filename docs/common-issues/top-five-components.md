@@ -15,7 +15,7 @@ The top 5 components reported to have issues when audited by our team.
 
 - [Missing fieldset or legend](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/missing-fieldset-or-legend.md) Draft
 - [Error summary contains invalid links](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/error-summary-links.md) Draft
-- [Hint or error message nested inside label or legend](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/hint-error-in-label.md)
+- [Hint or error message nested inside label or legend](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/hint-error-in-label.md)  Draft
 - [Hint not associated](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/hint-not-associated.md) Draft
 
 ## 3. Text input
@@ -32,7 +32,7 @@ The top 5 components reported to have issues when audited by our team.
 - [Missing 'opens in a new tab' as part of the link](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/open-in-new-window-links.md) Draft
 - [Insufficient contast](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/insufficient-contrast.md) Draft
 
-## %. Error message	
+## 5. Error message	
 
 - [Error message text](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/error-message.md) Draft
 - [Error message not associated](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/error-not-associated.md) Draft

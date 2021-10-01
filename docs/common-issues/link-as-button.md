@@ -14,6 +14,7 @@ Follow Using links as buttons guidance .
 
 ## Labels
 
+- button
 - code quality
 - usability
 - keyboard-only

@@ -31,13 +31,13 @@ Ensure you are linking to the correct answer by following the [GOV.UK Design Sys
 ### Accessibility problems
 
 ```
- - description: The error message link in the error summary does not link to the form element in the error.
+ the error message link in the error summary does not link to the form element in the error.
 ```
 
 ### Milestones
 
 ```
- - description:  The error message link in the error summary does not contain the valid link destination to the form element in error. This fails WCAG 2.1 success criterion 1.3.1 Info and relationships
+  the error message link in the error summary does not contain the valid link destination to the form element in error. This fails WCAG 2.1 success criterion 1.3.1 Info and relationships
  date: TBC
 
 ```

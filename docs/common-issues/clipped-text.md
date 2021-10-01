@@ -32,13 +32,13 @@ Or apply `.text-overflow` class on element
 
 ### Accessibility problems
 ```
-  - description: When text is resized [named] text is cut off and so may not display the entire information intended.
+  when text is resized [named] text is cut off and so may not display the entire information intended.
 ```
 
 ### Milestones
 
 ```
-  - description: When text is resized, content is lost. This fails WCAG 2.1 success criterion 1.4.4 Resize text 
+  when text is resized, content is lost. This fails WCAG 2.1 success criterion 1.4.4 Resize text 
   date: TBC
 
 ```

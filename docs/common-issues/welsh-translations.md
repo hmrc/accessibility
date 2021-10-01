@@ -32,14 +32,14 @@ However it is possible to send an override skip link to the @skipLinkBlock code 
 
 ### Accessibility problems
 ```
-  - description: When switching to the Welsh language version, the parts of the text is not translated. Additionally, the not translated text may not be pronounced correctly by screen readers.
+  when switching to the Welsh language version, the parts of the text is not translated. Additionally, the not translated text may not be pronounced correctly by screen readers.
 
 ```
 
 ### Milestones
 
 ```
-  - description: Missing Welsh translations and appropriate language attributes on the copy can cause screen readers to mispronounce the copy. This fails WCAG 2.1 success criterion 3.1.2 Language of parts
+  missing Welsh translations and appropriate language attributes on the copy can cause screen readers to mispronounce the copy. This fails WCAG 2.1 success criterion 3.1.2 Language of parts
   date: tbc
 ```
 

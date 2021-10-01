@@ -1,13 +1,14 @@
 # Issue: Text is clipped [Draft]
 
-Long string of text not breaking to accommodate the width of the parent container. The text gets clipped.
+Text is present which does not wrap to stay within the bounds of its parent container when user rely on text resizing. Increasing font size causing the text to either extend beyond the container, causing the layout to break or scrollbars to appear, or the text is clipped by the parent container and content is lost.
+This create difficulties for people who rely on text to be resized without loss of the content.
+
 
 ## To resolve
 
 Most recent govuk-frontend should containe fix for this issue panel heading
 https://github.com/alphagov/govuk-frontend/pull/2347.
 Or apply `.text-overflow` class on element
-This is create difficulties for people who rely on text to be resized without loss of the content.
 
 ```
 .text-overflow {
@@ -31,13 +32,13 @@ This is create difficulties for people who rely on text to be resized without lo
 
 ### Accessibility problems
 ```
-  - description: When entering a long string of text it does not break to fit the container it is being added to, so it will overflow. Users will have to scroll horizontally to read it. This will also be a problem if the text size is increased. Additionally, seeing it will be difficult as it imight blend in with background colour.
+  - description: When text is resized [named] text is cut off and so may not display the entire information intended.
 ```
 
 ### Milestones
 
 ```
-  - description: Copy missing text wrapping CSS properties, what causes issues when the text font size increased. This fails WCAG 2.1 success criterion 1.4.4 Resize text 
+  - description: When text is resized, content is lost. This fails WCAG 2.1 success criterion 1.4.4 Resize text 
   date: TBC
 
 ```

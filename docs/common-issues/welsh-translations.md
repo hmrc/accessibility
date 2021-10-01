@@ -32,7 +32,7 @@ However it is possible to send an override skip link to the @skipLinkBlock code 
 
 ### Accessibility problems
 ```
-  - description: When switching to the Welsh language version, the translation is not available. Additionally, the not translated text may not be pronounced correctly by screen readers.
+  - description: When switching to the Welsh language version, the parts of the text is not translated. Additionally, the not translated text may not be pronounced correctly by screen readers.
 
 ```
 

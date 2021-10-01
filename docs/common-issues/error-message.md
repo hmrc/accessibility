@@ -13,7 +13,7 @@ Ensure for each error scenario you write [clear and concise error messages](http
 ## Labels
 
 - wcag
-- wcag 1.3.1 (A)
+- wcag 3.3.3 (AA)
 - usability
 - error message
 
@@ -21,7 +21,7 @@ Ensure for each error scenario you write [clear and concise error messages](http
 
 | Status | Level | Issue | Success Criterion |
 | ------ | ----- | ----- | ----------------- |
-| 🔴 (H) | A    | [#issue](): Error message text | 1.3.1 Info and Relationships |
+| 🟠 (M) | AA    | [#issue](): Error message text | 3.3.3 Error Suggestion (AA) |
 
 ## Statement
 
@@ -41,5 +41,4 @@ tbc
 
 [Error message - GOV.UK Design System](https://design-system.service.gov.uk/components/error-message/)
 
-[Understanding Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)
-
+[Understanding Success Criterion 3.3.3: Error Suggestion](https://www.w3.org/WAI/WCAG21/Understanding/error-suggestion.html)

@@ -22,13 +22,14 @@ Follow guidance [Using links as buttons](https://github.com/hmrc/accessibility/b
 
 ### Accessibility problems
 ```
-  - description: On the xxx page, the xxx link has been styled as a button but does not work with the spacebar key press
+  - description: On the xxx page, the xxx link has been styled as a button but does not work with the spacebar key press. A keyboard only user will need to use the enter key to activate this.
+
 ```
 
 ### Milestones
 
 ```
-  - description: For a link styled as a button, the role="button" and the JavaScript polyfill is missing to ensure it acts like a button. This fails WCAG 2.1 success criterion 4.1.2: Name, Role, Value
+  - description: The link styled as button does not respond to the spacebar for keyboard only users. This fails WCAG 2.1 success criterion 4.1.2 Name, Role, Value
   date: tbc
 ```
 

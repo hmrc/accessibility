@@ -28,13 +28,15 @@ If the content contains a link then it shouldn't be added as hint text as not al
 ### Accessibility problems
 
 ```
-tbc
+  - description: When user selects one of the options, hidden content is revealed below the selected option. This content may not be announced by assistive technology
 ```
 
 ### Milestones
 
 ```
-tbc
+  - description: Conditionally revealing content is not always announced due to the implementation not meeting our service standard. This fails WCAG 2.1 success criterion 4.1.2 Name, Role, Value
+  date: TBC
+
 ```
 
 ## References

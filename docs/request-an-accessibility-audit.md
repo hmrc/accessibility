@@ -12,18 +12,18 @@ Once you have identified and fixed known accessibility issues, arrange to have a
 
 ## How to request an audit
 
-Complete an [accessibility audit request form (Word document, 30k)](https://github.com/hmrc/accessibility/blob/master/docs/hmrc-accessibility-audit-request.docx?raw=true).
+Complete an [accessibility audit request form (Word document, 33k)](https://github.com/hmrc/accessibility/blob/master/docs/hmrc-accessibility-audit-request.docx?raw=true).
 
 You’ll be asked to provide:
 
 - Service name
-- Service contact
+- About the service
+- Project details
+- Service contacts
 - GitHub details (if applicable)
-- Description of the service
-- When the service is due to go into public beta
-- Details to access the service (we will need to access each journey up to 20 times so please supply enough credentials to allow this)
-- User journeys that need testing
-- Copy of your private beta RAD report
+- Timeline
+- Details to access the service (we will need to access each journey up to 12 times so please supply enough credentials to allow this)
+- User journeys to be tested
 
 When you have completed the form send your request to <accessibility.team@hmrc.gov.uk> and we will respond within 2 working days.
 

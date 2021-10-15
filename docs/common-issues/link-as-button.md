@@ -1,9 +1,9 @@
 # Issue: Link styled as a button [Draft]
 
-For a link styled as a button, add `role="button"` and initialise the JavaScript polyfill to ensure it acts as a button.
+For a link styled as a button, add `role="button"` and `data-module="govuk-button"` to initialise the JavaScript polyfill to ensure it acts as a button.
 
 - Adding ARIA `role="button"` will identify the link as a button to assistive technologies.
-- The JavaScript polyfill makes sure that the link responds to the <kbd>enter</kbd> and <kbd>spacebar</kbd> keypress.
+- Adding `data-module="govuk-button"` makes sure that the link responds to the <kbd>enter</kbd> and <kbd>spacebar</kbd> keypress.
 
 ## To resolve
 
@@ -31,7 +31,7 @@ on the [page title] page, the [link text] link has been styled as a button, but 
 
 ### Milestones
 ```
-for a link styled as a button, the role="button" and the JavaScript polyfill is missing to ensure it acts like a button. This fails WCAG 2.1 success criterion 4.1.2: Name, Role, Value
+for a link styled as a button, the role="button" and the data-module="govuk-button" is missing to ensure it acts like a button. This fails WCAG 2.1 success criterion 4.1.2: Name, Role, Value
 ```
 
 ## References

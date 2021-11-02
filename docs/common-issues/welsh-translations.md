@@ -28,6 +28,21 @@ However it is possible to send an override skip link to the @skipLinkBlock code 
 | ------ | ----- | ----- | ----------------- |
 | 🟠 (M) | AA    | [#issue](): Content not translated to Welsh | 3.1.2 Language of parts |
 
+## Statement
+
+### Accessibility problems
+```
+  when switching to the Welsh language version, the parts of the text is not translated. Additionally, the not translated text may not be pronounced correctly by screen readers.
+
+```
+
+### Milestones
+
+```
+  missing Welsh translations and appropriate language attributes on the copy can cause screen readers to mispronounce the copy. This fails WCAG 2.1 success criterion 3.1.2 Language of parts
+  date: tbc
+```
+
 ## References
 
 [Language toggle - HMRC Design System](https://design.tax.service.gov.uk/hmrc-design-patterns/welsh-language-toggle/)

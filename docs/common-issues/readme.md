@@ -30,3 +30,5 @@
 - [Timeout dialog missing](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/timeout-dialog.md) Draft
 - [Timeout dialog doesn't extend session](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/timeout-dialog-cannot-extend-session.md) Draft
 - [Page title incomplete](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/page-title-incomplete.md) Draft
+- [Text is clipped](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/clipped-text.md) Draft
+- [Link styled as a button](https://github.com/hmrc/accessibility/blob/master/docs/common-issues/link-as-button.md) Draft

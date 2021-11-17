@@ -14,34 +14,20 @@ Ensure you are linking to the correct answer by following the [GOV.UK Design Sys
 
 ## Labels
 
-- wcag
-- wcag 1.3.1
 - usability
 - error message
 
 ## Report
 
-| Status | Level | Issue | Success Criterion |
-| ------ | ----- | ----- | ----------------- |
-| 🔴 (H) | A    | [#issue](): Error summary contains invalid links | 1.3.1 Info and Relationships |
+| Priority | Issue |
+| ------ | ----- |
+| 🔴 P1 | [#issue](): Error summary contains invalid links |
 
 
 ## Statement
 
-### Accessibility problems
-
-```
-tbc
-```
-
-### Milestones
-
-```
-tbc
-```
+This is not a WCAG A/AA failure so it does not have to be included on the accessibility statement, but we strongly recommend resolving the issue to improve the usability of the service.
 
 ## References
 
 [Error summary - GOV.UK Design System](https://design-system.service.gov.uk/components/error-summary/)
-
-[Understanding Success Criterion 1.3.1: Info and Relationships](https://www.w3.org/WAI/WCAG21/Understanding/info-and-relationships)

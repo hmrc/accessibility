@@ -4,7 +4,7 @@ The error message doesn't clearly describe the issue that needs to be resolved.
 
 Without clear error messages the user has to navigate through the whole page and try to identify the cause of any issues needing to be corrected.
 
-In some cases this could prevent the user from being able to procede and possibly abandon the service altogether.
+In some cases this could prevent the user from being able to proceed and possibly abandon the service altogether.
 
 ## To resolve:
 

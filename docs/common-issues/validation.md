@@ -6,7 +6,7 @@ The user may be copying & pasting from another source which has different format
 
 Voice control software often inserts spaces (including leading spaces) as the user speaks and having to go back and remove these is time-consuming.
 
-People who struggle with numbers, such as those with dyscalculia, will benefit from being able to write numbers in groups.
+People who struggle with numbers, such as those with dyscalculia, will benefit from being able to write numbers in space-separated groups.
 
 Editing data can be difficult for those with mobility or dexterity issues or for those on touch devices, so we should avoid raising errors for format where possible.
 

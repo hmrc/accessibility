@@ -1,42 +1,48 @@
-# Colour
+# Colours
+
 It is important that interfaces do not rely on colour alone.
+
+High contrast and colour filters increases the colour contrast between the foreground and background on your screen, making text and images more distinct and easier to identify.
 
 ## System set-up
 
-### Chrome
-This is available from Chrome 82, or in Chrome Canary
-Dev tools > Rendering > Emulate vision deficiencies
-- Achromatopsia
-- Protanopia
-- Deuteranopia
-- Tritanopia
+Chrome
+: Chrome browser DevTools > More tools > Rendering > Emulate vision deficiencies
 
-### Windows
-Settings > Ease of Access > Colour Filters
-- Inverted
-- Greyscale (Achromatopsia)
-- Greyscale Inverted
-- Red/Green filter(Protanopia)
-- Green/Red filter (Deuteranopia)
-- Blue/Yellow filter (Tritanopia)
+Windows
+:
+1. From windows search enter `colour filters`: Inverted
+2. rom windows search enter `colour filters`: Greyscale
+3. From windows search enter `high contrast`: High Contrast Black
 
-### Mac OS
-System Preferences > Accessibility > Display >Colour filters
-- Greyscale (Achromatopsia)
-- Red/Green filter(Protanopia)
-- Green/Red filter (Deuteranopia)
-- Blue/Yellow filter (Tritanopia)
+macOS
+:
+1. System Settings > Accessibility > Display > Colour filters > Greyscale
+2. System Settings > Accessibility > Display > Invert colours > Smart
+3. System Settings > Accessibility > Display > Display contrast > Drag the slider to at least 50%
 
-### iOS
-Settings > Accessibility > Display & Text Size > Colour filters
-- Greyscale (Achromatopsia)
-- Red/Green filter(Protanopia)
-- Green/Red filter (Deuteranopia)
-- Blue/Yellow filter (Tritanopia)
+Android
+:
+1. Settings > Accessibility > Text and display > Colour correction
+2. Settings > Accessibility > Colour and motion > Colour inversion
 
+iOS
+:
+1. Settings > Accessibility > Display & Text Size > Colour filters > Greyscale
+2. Settings > Accessibility > Display & Text Size > Smart invert
 
 ## Testing notes
-Enable the setting, check the service.
 
-## What to look for
-For each overlay check colour contrast hasn't been impeded by the change in colours and that everything is still readable
+1. Enable the colour filters/correction and check the service:
+   - Greyscale (Achromatopsia)
+   - Red/Green filter(Protanopia)
+   - Green/Red filter (Deuteranopia)
+   - Blue/Yellow filter (Tritanopia)
+2. Enable the colour inversion and check the service.
+3. On Windows, enable High Contrast and check the service.
+
+### What to look for
+
+- check colour contrast hasn't been impeded by the change in colours
+- everything is still readable and distinguishable
+- focus states are still visible

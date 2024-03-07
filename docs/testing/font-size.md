@@ -1,4 +1,11 @@
-# Check for increased font size on mobile and desktop
+# Check for increased font size on mobile and desktop (page deprecated)
+
+For updated guidance, read [increased text size and spacing](increased-text-size-and-spacing.md)
+
+---
+DELETE BELOW
+---
+
 Font-size-only zoom is important to check as it is a modification which is easy for users to do themselves and provides a user with a subjectively better layout than a full-page zoom where the layout moves towards a mobile or tablet layout on desktop. On smaller screens it is also a way of increasing readability without having to pinch & zoom all the time.
 
 ## System set-up

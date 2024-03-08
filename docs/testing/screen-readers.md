@@ -18,7 +18,7 @@ Avoid changing any settings beyond the modifier keys. Because users can modify t
 ### Testing notes
 
 1. Use Chrome or Edge browser
-2. Follow our [step-by-step guide to getting started with using JAWS](https://accessibility-training.herokuapp.com/jaws/)
+2. Follow our [step-by-step guide to getting started with using JAWS](https://accessibility-training.herokuapp.com/jaws/) (username: hmrc, password: a11y)
 3. Perform the common checks as listed in the What to look for section below
 4. Complete the user journey using the screen reader only
 
@@ -35,7 +35,7 @@ Install the latest version of NVDA
 ### Testing notes
 
 1. Use Chrome or Edge browser
-2. Follow our [step-by-step guide to getting started with using NVDA](https://accessibility-training.herokuapp.com/nvda/)
+2. Follow our [step-by-step guide to getting started with using NVDA](https://accessibility-training.herokuapp.com/nvda/) (username: hmrc, password: a11y)
 3. Perform the common checks as listed in the What to look for section below
 4. Complete the user journey using the screen reader only
 
@@ -52,7 +52,7 @@ Whilst it shares much functionality with VoiceOver for iOS, the mechanisms for u
 ### Testing notes
 
 1. Use Safari browser
-2. Follow our [step-by-step guide to getting started with using Voiceover on Mac](https://accessibility-training.herokuapp.com/voiceover/)
+2. Follow our [step-by-step guide to getting started with using Voiceover on Mac](https://accessibility-training.herokuapp.com/voiceover/) (username: hmrc, password: a11y)
 3. Perform the common checks as listed in the What to look for section below
 4. Complete the user journey using the screen reader only
 

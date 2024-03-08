@@ -18,7 +18,7 @@ This should be done once one of the automated options has been done and any issu
 Manual testing involves performing several different testing methods, including using some assistive technologies such as screen readers, but also more simple tests like checking what the service looks like when zoomed in or when using colour filters.
 
 [How to test for accessibility](how-to-test-for-accessibility.md)  
-[Assistive technology guides](https://accessibility-training.herokuapp.com/)
+[Assistive technology guides](https://accessibility-training.herokuapp.com/) (username: hmrc, password: a11y)
 
 ### HMRC accessibility team
 

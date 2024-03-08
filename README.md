@@ -9,5 +9,5 @@
 ## Doing
 
 - [Testing your service for accessibility](docs/testing-your-service-for-accessibility.md)
-- [HMRC Accessibility Stats](https://accessibility-stats-prototype-2bb365347322.herokuapp.com/)
+- [HMRC Accessibility Stats](https://accessibility-stats-prototype-2bb365347322.herokuapp.com/) (password: a11y)
 - [Request an accessibility audit](docs/request-an-accessibility-audit.md)

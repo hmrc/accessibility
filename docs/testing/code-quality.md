@@ -4,11 +4,14 @@ This task should be completed first as it will surface lots of issues which will
 
 ## System set-up
 
-Install some browser extensions for testing. We have listed the ones we recommend in [Semi-automated testing: browser-based tools](../semi-automated-testing.md).
+Install some browser extensions for testing. We have listed the ones we recommend in [semi-automated testing](../semi-automated-testing.md).
 
 ## Testing notes
 
-Use the browser developer tools and extensions. Review errors and warnings. Examine code. Disable CSS and JS in turn.
+1. Use the browser developer tools and extensions.
+2. Review errors and warnings.
+3. Examine code.
+4. Disable CSS and JS in turn.
 
 ### What to look for
 
@@ -19,5 +22,12 @@ Use the browser developer tools and extensions. Review errors and warnings. Exam
   - JS should be added as a progressive enhancement. Some things may be easier with JS enabled (such as a multi-file uploader) but you should still be able to accomplish the task without JS enabled
   - any links or content dependent on JS should be hidden if it is not available, for example, backlinks using the the browser back history
   - make sure the JS does not throw errors by keeping the browser console open during testing
-- backend code is not displayed, especially examining hidden copy intended for screen reader users
+- for content
+  - combining `h1` with `legend` or `label` elements to avoid duplication for screen reader users
+  - use of `autocomplete` attribute on inputs for personal data
+  - backend code is not displayed, especially examining hidden copy intended for screen reader users
+  - if using `hr` element, add `aria-hidden="true"` to prevent screen readers interacting with it (ensure you cannot achieve segmentation using styling).
+- on forms
+  - radios and checkboxes have `fieldset` with a `legend` that describes the grouping
+  - using the correct `type` attribute for inputs
 - check page performance and timings

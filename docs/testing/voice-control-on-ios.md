@@ -1,11 +1,3 @@
-# Voice Control on iOS
-Voice control is built into the latest versions of iOS.
+# Voice Control on iOS (page deprecated)
 
-## System set-up
-Settings > Accessibility > Voice Control
-
-## Testing notes
-Test with Safari browser
-
-## What to look for
-Perform [common voice-to-text checks](common/voice.md)
+For updated guidance, read [speech recognition](speech-recognition.md)

@@ -6,21 +6,25 @@ Typically the magnification will mean that the user will move their finger or cu
 
 ## System set-up
 
-Windows
-: Settings > Ease of Access > Magnifier
+### Windows
 
-macOS
-: System Settings > Accessibility > Zoom
+`Settings > Ease of Access > Magnifier`
 
-Android
-: Settings > Accessibility > Magnification
+### macOS
 
-iOS
-: Settings > Accessibility > Zoom
+`System Settings > Accessibility > Zoom`
+
+### Android
+
+`Settings > Accessibility > Magnification`
+
+### iOS
+
+`Settings > Accessibility > Zoom`
 
 ## Testing notes
 
-Test pages with x4 (400%) zoom
+Test pages with `x4` (400%) zoom
 
 ### What to look for
 

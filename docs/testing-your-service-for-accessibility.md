@@ -25,7 +25,7 @@ Communicating with a broad range of users from the start will mean requirements 
 Once your service is being coded for production then you should be carrying out accessibility testing as an ongoing task. You can also start testing internally with assistive technologies such as screen readers and speech recognition software.
 
 [Types of accessibility testing](types-of-accessibility-testing.md)  
-[How to test for accessibility](how-to-test-for-accessibility.md)
+[How to test for accessibility](how-to-test-for-accessibility.md) (username: hmrc, password: a11y)
 
 ### The accessibility audit
 

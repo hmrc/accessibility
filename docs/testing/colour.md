@@ -6,40 +6,33 @@ High contrast and colour filters increases the colour contrast between the foreg
 
 ## System set-up
 
-Chrome
-: Chrome browser DevTools > More tools > Rendering > Emulate vision deficiencies
+### Windows
 
-Windows
-:
 1. From windows search enter `colour filters`: Inverted
 2. rom windows search enter `colour filters`: Greyscale
 3. From windows search enter `high contrast`: High Contrast Black
 
-macOS
-:
-1. System Settings > Accessibility > Display > Colour filters > Greyscale
-2. System Settings > Accessibility > Display > Invert colours > Smart
-3. System Settings > Accessibility > Display > Display contrast > Drag the slider to at least 50%
+### macOS
 
-Android
-:
-1. Settings > Accessibility > Text and display > Colour correction
-2. Settings > Accessibility > Colour and motion > Colour inversion
+1. `System Settings > Accessibility > Display > Colour filters > Greyscale`
+2. `System Settings > Accessibility > Display > Invert colours > Smart`
+3. `System Settings > Accessibility > Display > Display contrast > Drag the slider to at least 50%`
 
-iOS
-:
-1. Settings > Accessibility > Display & Text Size > Colour filters > Greyscale
-2. Settings > Accessibility > Display & Text Size > Smart invert
+### Android
+
+1. `Settings > Accessibility > Text and display > Colour correction`
+2. `Settings > Accessibility > Colour and motion > Colour inversion`
+
+### iOS
+
+1. `Settings > Accessibility > Display & Text Size > Colour filters > Greyscale`
+2. `Settings > Accessibility > Display & Text Size > Smart invert`
 
 ## Testing notes
 
-1. Enable the colour filters/correction and check the service:
-   - Greyscale (Achromatopsia)
-   - Red/Green filter(Protanopia)
-   - Green/Red filter (Deuteranopia)
-   - Blue/Yellow filter (Tritanopia)
-2. Enable the colour inversion and check the service.
-3. On Windows, enable High Contrast and check the service.
+1. Enable the `colour filter` to `greyscale` and check the service.
+2. Enable the `colour inversion` and check the service.
+3. On Windows, enable `high contrast` and check the service.
 
 ### What to look for
 

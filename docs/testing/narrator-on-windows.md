@@ -1,11 +1,3 @@
-# Narrator on Windows
-Narrator is a free screen-reader built into Windows.
+# Narrator on Windows (page deprecated)
 
-## System set-up
-Settings > Ease of Access Narrator
-
-## Testing notes
-Use MS Edge browser
-
-## What to look for
-Perform [common screen-reader checks](common/screen-readers.md)
+For updated guidance, read [screen readers](screen-readers.md)

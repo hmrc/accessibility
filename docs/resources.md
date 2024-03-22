@@ -1,4 +1,4 @@
-## Resources
+## Resources (page deprecated)
 
 There are many things that are briefly mentioned in Slack, or in a team meeting, or overheard, which we think *everyone* should probably know. This is an attempt to list those things.
 

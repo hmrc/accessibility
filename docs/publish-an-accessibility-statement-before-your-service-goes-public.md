@@ -24,7 +24,7 @@ The benefit of having centrally held templates are:
 
 ## Accessing the accessibility statement service
 
-You must have a [GitHub account linked to the HMRC organisation](https://confluence.tools.tax.service.gov.uk/display/DTRG/HMRC+on+GitHub).
+You must have a [GitHub account linked to the HMRC organisation](https://docs.tax.service.gov.uk/mdtp-handbook/documentation/manage-users-teams-services/manage-users/add-a-user-to-hmrc-on-github.html).
 
 To access the service front-end use this link: https://github.com/hmrc/accessibility-statement-frontend
 

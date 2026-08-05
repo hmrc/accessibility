@@ -1,6 +1,6 @@
 # Rule exceptions
 
-## Compontent exceptions
+## Component exceptions
 - [Accessible autocomplete - Select element does not have an associated label](https://github.com/hmrc/accessibility/blob/main/docs/rule-exceptions/accessible-autocomplete.md)
 - [Accessible autocomplete - Aria-labelledby target has no copy](https://github.com/hmrc/accessibility/blob/main/docs/rule-exceptions/accessible-autocomplete.md)
 - [Back link - Not all page content is contained in landmarks](https://github.com/hmrc/accessibility/blob/main/docs/rule-exceptions/back-link.md)
